@@ -1,6 +1,9 @@
             
+@import "../footer/footer.css";
+
 #Sponsored_companies_div {
     /* background-color: green; */
+    margin-top: 110px;
     justify-content: center;
     text-align: center;
     padding: 10px;   
@@ -47,10 +50,10 @@
 } */
 #Sponsored_companies_div > #Sponsored_companies_container {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr);
     gap: 25px;
     /* width: 100%; */
-    /* width: 90%; */
+    width: 90%;
     margin: auto;
 
     /* here if need to space then we can show only 4 div */
@@ -568,14 +571,14 @@
 
 #footer_horizontle_line {
    border: 1px solid #ccc;
-   margin-bottom: 80px;
+   margin-bottom: 40px;
 }
 
-#only_footer_section {
+/* #only_footer_section {
     height: 400px;
     border: 2px solid red;
     margin-bottom: 80px;
-}
+} */
 
 /* ----------------- footer section--------------- */
 
