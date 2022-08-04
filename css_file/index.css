@@ -1,10 +1,80 @@
 
+@import "../css_file/navbar.css";
 @import "../css_file/Sponsored\ companies.css";
 @import "../css_file/footer.css";
 
 body{
     background-color: #f9fafe;
 }
+
+/* navbaar design here */
+
+#navbaar_section {
+  /* height: 80px; */
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: 50% 50%;
+  
+}
+
+#navbaar_section > div {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 3px dashed green; */
+}
+
+#navbaar_section > div > div :nth-child(1) {
+    border: 1px solid #457eff;
+    border-radius: 25px;
+    overflow: hidden;
+    /* font-size: 20px; */
+    background-color: white;
+    color: #458aff;
+    cursor: pointer;
+    /* padding: 10px 20px; */
+    justify-content: center;
+    /* margin-top: 40px; */
+    /* margin-left: 40px; */
+}
+
+#navbaar_section > div > div :nth-child(2) {
+  border: none;
+  border-radius: 25px;
+  overflow: hidden;
+  /* font-size: 20px; */
+  background-color: #ff7555;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  justify-content: center;
+  /* margin-top: 40px; */
+  /* margin-left: 40px; */
+}
+
+#navbaar_section > div > p:hover{ 
+    /* text-decoration: underline; */
+    cursor: pointer;
+    color: red;
+    /* border: 3px dashed green; */
+    /* font-size: 25px; */
+   
+      border-bottom: 5px solid rgb(248, 87, 23);
+  
+}
+
+#navbaar_section > div > img { 
+  width: 186px;
+  height: 41px;
+  /* margin: auto; */
+}
+
+
+
+
+
+/* home page design here */
+
+
 
 #topName{
     text-align: center;
