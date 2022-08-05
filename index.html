@@ -1,83 +1,343 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
-    <link rel="stylesheet" href="./css_file/index.css">
+    <link rel="stylesheet" href="./css_file/index.css" />
 
     <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> -->
-    <link rel="stylesheet" href="./css_file/flickity.min.css">
+    <link rel="stylesheet" href="./css_file/flickity.min.css" />
 
     <!-- This above style sheet is for first sliding window -->
-    <link rel="icon" href="https://static.naukri.com/s/4/100/i/naukriLogoIcon200.png" type="image/icon type">
+    <link
+      rel="icon"
+      href="https://static.naukri.com/s/4/100/i/naukriLogoIcon200.png"
+      type="image/icon type"
+    />
 
     <!-- font awsome code -->
-    <script src="https://kit.fontawesome.com/bccd922fb7.js" crossorigin="anonymous"></script>
-</head>
-<body>
-
+    <script
+      src="https://kit.fontawesome.com/bccd922fb7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <!-- Shubham Code -->
     <!-- navbaar code here -->
 
     <div id="navbar_parent_div">
-        <div>
-          <div class="img_logo">
-            <a href="#"
-              ><p>
-                <img
-                  src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png"
-                  alt="logo"
-                /></p
-            ></a>
-          </div>
-          <div class="jobs">
-            <a href="#"> <p>Jobs</p> </a>
-          </div>
-          <div class="companies">
-            <a href="#"> <p>Companies</p> </a>
-          </div>
-          <div class="services">
-            <a href="#"> <p>Services</p> </a>
-          </div>
-          <div class="resources">
-            <a href="#"> <p>Resources</p> </a>
-          </div>
+      <div>
+        <div class="img_logo">
+          <a href="../naukri-website-clone/index.html"
+            ><p>
+              <img
+                src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png"
+                alt="logo"
+              /></p
+          ></a>
         </div>
-  
-        <div id="navbar_2nd_child">
-          <div class="login">
-            <a href="#"> <p>Login</p> </a>
-          </div>
-          <div class="register">
-            <a href="#"> <p>Register</p> </a>
-          </div>
-          <div></div>
-          <div class="employees">
-            <a href="#">
-              <p style="color: #445578">
-                For employers <i class="fa-solid fa-angle-down"></i>
-              </p>
-            </a>
-          </div>
+        <div class="jobs">
+          <a href="#"> <p>Jobs</p> </a>
+        </div>
+        <div class="companies">
+          <a href="#"> <p>Companies</p> </a>
+        </div>
+        <div class="services">
+          <a href="#"> <p>Services</p> </a>
+        </div>
+        <div class="resources">
+          <a href="#"> <p>Resources</p> </a>
         </div>
       </div>
 
-      
+      <div id="navbar_2nd_child">
+        <div class="login">
+          <a href="#"> <p>Login</p> </a>
+        </div>
+        <div class="register">
+          <a href="#"> <p>Register</p> </a>
+        </div>
+        <div id="for_only_border"></div>
+        <div class="employees">
+          <a href="#">
+            <p style="color: #445578">
+              For employers <i class="fa-solid fa-angle-down"></i>
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- nav section ended -->
+
+    <!-- now nav bar hover mega menu code below -->
+
+    <!-- Navbar hover effect code for jobs -->
+
+    <div id="mega_menu_table_jobs">
+
+      <div id="table_c1">
+        <h3>Popular categories</h3>
+        <p>IT jobs</p>
+        <p>Sales jobs</p>
+        <p>Marketing jobs</p>
+        <p>Data Science jobs</p>
+        <p>HR jobs</p>
+        <p>Engineering jobs</p>
+      </div>
+
+      <div id="table_c2">
+        <h3>Jobs in demand</h3>
+        <p>Fresher jobs</p>
+        <p>MNC jobs</p>
+        <p>Remote jobs</p>
+        <p>Work from home jobs</p>
+        <p>Walk-in jobs</p>
+        <p>Part-time jobs</p>
+      </div>
+
+      <div id="table_c3">
+        <h3>Explore more jobs</h3>
+        <p>Jobs by category</p>
+        <p>Jobs by skill</p>
+        <p>Jobs by location</p>
+        <p>Jobs by designation</p>
+        <p>Create free job alert</p>
+      </div>
+
+      <div id="table_c4">
+        <h3>Jobs by location</h3>
+        <p>Jobs in Delhi</p>
+        <p>Jobs in Mumbai</p>
+        <p>Jobs in Bangalore</p>
+        <p>Jobs in Hyderabad</p>
+        <p>Jobs in Chennai</p>
+        <p>Jobs in Pune</p>
+      </div>
+    </div>
+
+
+    <!-- Navbar hover effect code of companies -->
+
+    <div id="mega_menu_table_companies">
+
+      <div id="table_c1">
+        <h3>Explore categories</h3>
+        <p>Unicorn</p>
+        <p>MNCs</p>
+        <p>Startup</p>
+        <p>Product based</p>
+        <p>Internet</p>
+      </div>
+
+      <div id="table_c2">
+        <h3>Explore collections</h3>
+        <p>Top companies</p>
+        <p>Fintech companies</p>
+        <p>Edtech companies</p>
+        <p>Featured companies</p>
+        <p>Sponsored companies</p>
+      </div>
+
+      <div id="table_c3">
+        <h3>Research companies</h3>
+        <p>Interview questions</p>
+        <p>Company salaries</p>
+        <p>About companies</p>
+        <p>Company reviews</p>
+      </div>
+    </div>
+
+
+<!-- Navbar hover effect code of services -->
+
+    <div id="mega_menu_table_services">
+
+      <div id="table_c1">
+        <h3>Resume writing</h3>
+        <p>Text resume</p>
+        <p>Visual resume</p>
+        <p>Resume critique</p>
+        <h3>Find jobs</h3>
+        <p>Jobs4u</p>
+        <p>Priority applicant</p>
+      </div>
+
+      <div id="table_c2">
+        <h3>Get recruiter's attention</h3>
+        <p>Resume display</p>
+        <p>Recruiter connection</p>
+        <p>Job search booster</p>
+        <h3>Monthly subscriptions</h3>
+        <p>Basic & premium plans</p>
+      </div>
+
+      <div id="table_c3">
+        <h3>Learn & upskill</h3>
+        <p>Data Science courses</p>
+        <p>Technology courses</p>
+        <p>Finance courses</p>
+        <p>Design courses</p>
+        <p>Healthcare courses</p>
+        <p>Degree programs</p>
+      </div>
+    </div>
+
+
+    <!-- Navbar hover effect code of resources -->
+
+    <div id="mega_menu_table_resources">
+
+      <div id="table_c1">
+        <h3>Free resume resources</h3>
+        <p>Resume maker for freshers</p>
+        <p>Resume quality score</p>
+        <p>Resume samples</p>
+        <p>Job letter samples</p>
+      </div>
+
+      <div id="table_c2">
+        <h3>More resources</h3>
+        <p>How to use Naukri</p>
+        <p>Naukri blog</p>
+        <p>FAQsr</p>
+        <p>Take home salary calculator</p>
+        <p>Naukri labs (beta)</p>
+      </div>
+
+    </div>
+
+
+    <!-- login page -->
+
+
+    <div id="login_parent_div">
+
+      <div id="for_close_page"><i class="fa-solid fa-xmark"></i></div>
+  
+        <div id="login_page">
+            <div id="login_heading">
+                <div>Login</div>
+                <div><a href="#">Register for free </a></div>
+            </div>
+  
+            <div id="login_form">
+                <form>
+                    <label for="">Email ID / Username</label>
+                    <input id="email" type="email" placeholder="Enter your active Email ID / Username" />
+                    <label for="">Password </label>
+                    <input id="pass" type="password" placeholder="Enter your password " /> 
+                    <p class="forgot_pass"><a href="#">Forgot Password ?</a></p>
+                    <input type="submit" value="Login" />
+  
+                  </form>
+            </div>
+  
+            <div id="otp_to_login">
+                <p>Use OTP to Login </p>
+            </div>
+  
+            <div id="line_or">
+                <div></div><p>or</p><div></div>
+            </div>
+  
+            <div id="google_btn_pic">
+                <button onclick="btnFun()" >
+                    <span id="google_logo">
+                      <img
+                        src="https://sso.masaischool.com/google.svg"
+                        alt="google logo"
+                      />
+                    </span>
+                    <p id="googlebtn"> Sign in with Google </p>
+                  </button>
+            </div>
+      </div>
+    </div>
+
+    <!-- close -->
+
+
+    <!-- <div id="login_parent_div_close">
+
+      <div id="for_close_page"><i class="fa-solid fa-xmark"></i></div>
+  
+        <div id="login_page">
+            <div id="login_heading">
+                <div>Login</div>
+                <div><a href="#">Register for free </a></div>
+            </div>
+  
+            <div id="login_form">
+                <form>
+                    <label for="">Email ID / Username</label>
+                    <input id="email" type="email" placeholder="Enter your active Email ID / Username" />
+                    <label for="">Password </label>
+                    <input id="pass" type="password" placeholder="Enter your password " /> 
+                    <p class="forgot_pass"><a href="#">Forgot Password ?</a></p>
+                    <input type="submit" value="Login" />
+  
+                  </form>
+            </div>
+  
+            <div id="otp_to_login">
+                <p>Use OTP to Login </p>
+            </div>
+  
+            <div id="line_or">
+                <div></div><p>or</p><div></div>
+            </div>
+  
+            <div id="google_btn_pic">
+                <button onclick="btnFun()" >
+                    <span id="google_logo">
+                      <img
+                        src="https://sso.masaischool.com/google.svg"
+                        alt="google logo"
+                      />
+                    </span>
+                    <p id="googlebtn"> Sign in with Google </p>
+                  </button>
+            </div>
+      </div>
+    </div> -->
+
+
+
+     <!-- Navbar hover effect code of employees -->
+
+    <div id="mega_menu_table_employees">
+
+      <div id="table_c1">
+        <p>Buy online</p>
+        <p>Our hiring solutions</p>
+        <p>Employer Login</p>
+      </div>
+
+    </div>
+
+
     <!-- home page code below -->
 
-
     <div id="topName">
-        <h1>Find your dream job now</h1>
-        <p>5 lakh+ jobs for you to explore</p>
+      <h1>Find your dream job now</h1>
+      <p>5 lakh+ jobs for you to explore</p>
     </div>
 
     <div id="searchBar">
-        <img src="https://static.naukimg.com/s/7/103/i/search.9ec0e1ac.svg" alt="searchLogo">
-        <input type="text" id="skills" placeholder="Enter skills / designations / companies">
+      <img
+        src="https://static.naukimg.com/s/7/103/i/search.9ec0e1ac.svg"
+        alt="searchLogo"
+      />
+      <input
+        type="text"
+        id="skills"
+        placeholder="Enter skills / designations / companies"
+      />
 
-     <select id="experience">
+      <select id="experience">
         <option value="">Select experience</option>
         <option value="Fresher">Fresher (Less than 1 year)</option>
         <option value="1 year">1 year</option>
@@ -88,858 +348,1217 @@
         <option value="6 year">6 years</option>
         <option value="7 year">7 years</option>
         <option value="8 year">8 years</option>
-     </select>
+      </select>
 
-     <input type="text" id="location" placeholder="Enter location">
+      <input type="text" id="location" placeholder="Enter location" />
 
-     <button id="searchBtn">Search</button>
+      <button id="searchBtn">Search</button>
     </div>
-
 
     <div id="getContacted">
-        <div>
-        <img src="https://static.naukimg.com/s/0/0/i/homepage-register/accenture-logo.png" alt="logo">
-        <img src="https://static.naukimg.com/s/0/0/i/homepage-register/myntra-logo.png" alt="logo">
-        </div>
+      <div>
+        <img
+          src="https://static.naukimg.com/s/0/0/i/homepage-register/accenture-logo.png"
+          alt="logo"
+        />
+        <img
+          src="https://static.naukimg.com/s/0/0/i/homepage-register/myntra-logo.png"
+          alt="logo"
+        />
+      </div>
 
-        <div>
-            <h3>Get contacted by top companies hiring on Naukri!</h3>
-            <p>Your chance to build that dream career is here</p>
-        </div>
+      <div>
+        <h3>Get contacted by top companies hiring on Naukri!</h3>
+        <p>Your chance to build that dream career is here</p>
+      </div>
 
-        <div>
-            <button id="regBtn">Register now</button>
-        </div>
+      <div>
+        <button id="regBtn">Register now</button>
+      </div>
     </div>
 
-        <h1 id="trending">Trending on Naukri today</h1>
-    
+    <h1 id="trending">Trending on Naukri today</h1>
 
     <!-- --------------------------  Sliding window code starts here --------------   -->
 
     <div class="carousel" data-flickity='{ "groupCells": true }'>
-        <div class="carousel-cell">
-            <img src="https://static.naukimg.com/s/0/0/i/trending-naukri/remote.svg" alt="logo">
-                <h3>Remote <i class="fa-solid fa-chevron-right"></i></h3>
-                <p>6K+ Jobs</p>
+      <div class="carousel-cell">
+        <img
+          src="https://static.naukimg.com/s/0/0/i/trending-naukri/remote.svg"
+          alt="logo"
+        />
+        <h3>Remote <i class="fa-solid fa-chevron-right"></i></h3>
+        <p>6K+ Jobs</p>
+      </div>
+      <div class="carousel-cell">
+        <img
+          src="https://static.naukimg.com/s/0/0/i/trending-naukri/mnc.svg"
+          alt="logo"
+        />
+        <h3>MNC <i class="fa-solid fa-chevron-right"></i></h3>
+        <p>68.7K+ Jobs</p>
+      </div>
+      <div class="carousel-cell">
+        <img
+          src="https://static.naukimg.com/s/0/0/i/trending-naukri/hr.svg"
+          alt="logo"
+        />
+        <h3>HR <i class="fa-solid fa-chevron-right"></i></h3>
+        <p>4.1K+ Jobs</p>
+      </div>
+      <div class="carousel-cell">
+        <img
+          src="https://static.naukimg.com/s/0/0/i/trending-naukri/marketing.svg"
+          alt="logo"
+        />
+        <h3>Marketing <i class="fa-solid fa-chevron-right"></i></h3>
+        <p>2.71K+ Jobs</p>
+      </div>
+      <div class="carousel-cell">
+        <img
+          src="https://static.naukimg.com/s/0/0/i/trending-naukri/sales.svg"
+          alt="logo"
+        />
+        <h3>Sales <i class="fa-solid fa-chevron-right"></i></h3>
+        <p>10.5K+ Jobs</p>
+      </div>
+      <div class="carousel-cell">
+        <img
+          src="https://static.naukimg.com/s/0/0/i/trending-naukri/freshers.svg"
+          alt="logo"
+        />
+        <h3>Fresher <i class="fa-solid fa-chevron-right"></i></h3>
+        <p>55.3K+ Jobs</p>
+      </div>
+      <div class="carousel-cell">
+        <img
+          src="https://static.naukimg.com/s/0/0/i/trending-naukri/software.svg"
+          alt="logo"
+        />
+        <h3>Software <i class="fa-solid fa-chevron-right"></i></h3>
+        <p>27.7K+ Jobs</p>
+      </div>
+      <div class="carousel-cell">
+        <img
+          src="https://static.naukimg.com/s/0/0/i/trending-naukri/fortune-500.svg"
+          alt="logo"
+        />
+        <h3>Fortune 500 <i class="fa-solid fa-chevron-right"></i></h3>
+        <p>23.3K+ Jobs</p>
+      </div>
+      <div class="carousel-cell">
+        <img
+          src="https://static.naukimg.com/s/0/0/i/trending-naukri/engineering.svg"
+          alt="logo"
+        />
+        <h3>Engineering <i class="fa-solid fa-chevron-right"></i></h3>
+        <p>3.1K+ Jobs</p>
+      </div>
+      <div class="carousel-cell">
+        <img
+          src="https://static.naukimg.com/s/0/0/i/trending-naukri/analytics.svg"
+          alt="logo"
+        />
+        <h3>Analytics <i class="fa-solid fa-chevron-right"></i></h3>
+        <p>9.7K+ Jobs</p>
+      </div>
+      <div class="carousel-cell">
+        <img
+          src="https://static.naukimg.com/s/0/0/i/trending-naukri/startup.svg"
+          alt="logo"
+        />
+        <h3>Startup <i class="fa-solid fa-chevron-right"></i></h3>
+        <p>6K+ Jobs</p>
+      </div>
+    </div>
+
+    <!-- </div> -->
+
+    <!-- --------------------------  Sliding window code ends here --------------   -->
+
+    <h1 id="exploreTopCompaniesHiring">Explore top companies hiring now</h1>
+
+    <!-------Explore top companies hiring now sliding window code starts here-------->
+
+    <div class="topCompanies" data-flickity='{ "groupCells": true }'>
+      <div class="topCompanies-cell">
+        <h3>MNCs <i class="fa-solid fa-chevron-right"></i></h3>
+        <p>1.3K+ are actively hiring</p>
+        <div>
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/52702.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/233026.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/2114.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/8886.gif"
+            alt="logo"
+          />
         </div>
-        <div class="carousel-cell"><img src="https://static.naukimg.com/s/0/0/i/trending-naukri/mnc.svg" alt="logo">
-                <h3>MNC <i class="fa-solid fa-chevron-right"></i></h3>
-                <p>68.7K+ Jobs</p></div>
-        <div class="carousel-cell"><img src="https://static.naukimg.com/s/0/0/i/trending-naukri/hr.svg" alt="logo">
-                <h3>HR <i class="fa-solid fa-chevron-right"></i></h3>
-                <p>4.1K+ Jobs</p></div>
-        <div class="carousel-cell"><img src="https://static.naukimg.com/s/0/0/i/trending-naukri/marketing.svg" alt="logo">
-                <h3>Marketing <i class="fa-solid fa-chevron-right"></i></h3>
-                <p>2.71K+ Jobs</p></div>
-        <div class="carousel-cell"><img src="https://static.naukimg.com/s/0/0/i/trending-naukri/sales.svg" alt="logo">
-                <h3>Sales <i class="fa-solid fa-chevron-right"></i></h3>
-                <p>10.5K+ Jobs</p></div>
-        <div class="carousel-cell"><img src="https://static.naukimg.com/s/0/0/i/trending-naukri/freshers.svg" alt="logo">
-                <h3>Fresher <i class="fa-solid fa-chevron-right"></i></h3>
-                <p>55.3K+ Jobs</p></div>
-        <div class="carousel-cell"><img src="https://static.naukimg.com/s/0/0/i/trending-naukri/software.svg" alt="logo">
-                <h3>Software <i class="fa-solid fa-chevron-right"></i></h3>
-                <p>27.7K+ Jobs</p></div>
-        <div class="carousel-cell"><img src="https://static.naukimg.com/s/0/0/i/trending-naukri/fortune-500.svg" alt="logo">
-                <h3>Fortune 500 <i class="fa-solid fa-chevron-right"></i></h3>
-                <p>23.3K+ Jobs</p></div>
-        <div class="carousel-cell"><img src="https://static.naukimg.com/s/0/0/i/trending-naukri/engineering.svg" alt="logo">
-                <h3>Engineering <i class="fa-solid fa-chevron-right"></i></h3>
-                <p>3.1K+ Jobs</p></div>
-        <div class="carousel-cell"><img src="https://static.naukimg.com/s/0/0/i/trending-naukri/analytics.svg" alt="logo">
-                <h3>Analytics <i class="fa-solid fa-chevron-right"></i></h3>
-                <p>9.7K+ Jobs</p></div>
-        <div class="carousel-cell"><img src="https://static.naukimg.com/s/0/0/i/trending-naukri/startup.svg" alt="logo">
-                <h3>Startup <i class="fa-solid fa-chevron-right"></i></h3>
-                <p>6K+ Jobs</p></div>
       </div>
 
-      <!-- </div> -->
-      
-
-      <!-- --------------------------  Sliding window code ends here --------------   -->
-
-
-      <h1 id="exploreTopCompaniesHiring">Explore top companies hiring now</h1>
-
-      <!-------Explore top companies hiring now sliding window code starts here-------->
-
-      <div class="topCompanies" data-flickity='{ "groupCells": true }'>
-        <div class="topCompanies-cell">
-                <h3>MNCs <i class="fa-solid fa-chevron-right"></i></h3>
-                <p>1.3K+ are actively hiring</p>
-                <div>
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/52702.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/233026.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/2114.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/8886.gif" alt="logo"> 
-                </div>
+      <div class="topCompanies-cell">
+        <h3>Fortune 500 <i class="fa-solid fa-chevron-right"></i></h3>
+        <p>76 are actively hiring</p>
+        <div>
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/36136.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/147040.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/7982.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/228864.gif"
+            alt="logo"
+          />
         </div>
-        
-        <div class="topCompanies-cell">
-                <h3>Fortune 500 <i class="fa-solid fa-chevron-right"></i></h3>
-                <p>76 are actively hiring</p>
-                <div>
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/36136.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/147040.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/7982.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/228864.gif" alt="logo"> 
-                </div>
+      </div>
+
+      <div class="topCompanies-cell">
+        <h3>Unicorns <i class="fa-solid fa-chevron-right"></i></h3>
+        <p>84 are actively hiring</p>
+        <div>
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/558162.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/2257208.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/1205138.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/555816.gif"
+            alt="logo"
+          />
         </div>
+      </div>
 
-        <div class="topCompanies-cell">
-                <h3>Unicorns <i class="fa-solid fa-chevron-right"></i></h3>
-                <p>84 are actively hiring</p>
-                <div>
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/558162.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/2257208.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/1205138.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/555816.gif" alt="logo"> 
-                </div>
+      <div class="topCompanies-cell">
+        <h3>Startups <i class="fa-solid fa-chevron-right"></i></h3>
+        <p>192 are actively hiring</p>
+        <div>
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/1285014.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/2444130.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/4599509.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/4961339.gif"
+            alt="logo"
+          />
         </div>
+      </div>
 
-        <div class="topCompanies-cell">
-                <h3>Startups <i class="fa-solid fa-chevron-right"></i></h3>
-                <p>192 are actively hiring</p>
-                <div>
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/1285014.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/2444130.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/4599509.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/4961339.gif" alt="logo"> 
-                </div>
+      <div class="topCompanies-cell">
+        <h3>B2C <i class="fa-solid fa-chevron-right"></i></h3>
+        <p>907 are actively hiring</p>
+        <div>
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/1422.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/687724.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/1019640.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/52702.gif"
+            alt="logo"
+          />
         </div>
+      </div>
 
-        <div class="topCompanies-cell">
-                <h3>B2C <i class="fa-solid fa-chevron-right"></i></h3>
-                <p>907 are actively hiring</p>
-                <div>
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/1422.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/687724.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/1019640.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/52702.gif" alt="logo"> 
-                </div>
+      <div class="topCompanies-cell">
+        <h3>Internet <i class="fa-solid fa-chevron-right"></i></h3>
+        <p>129 are actively hiring</p>
+        <div>
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/20738.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/124792.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/1285014.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/4614879.gif"
+            alt="logo"
+          />
         </div>
+      </div>
 
-        <div class="topCompanies-cell">
-                <h3>Internet <i class="fa-solid fa-chevron-right"></i></h3>
-                <p>129 are actively hiring</p>
-                <div>
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/20738.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/124792.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/1285014.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/4614879.gif" alt="logo"> 
-                </div>
+      <div class="topCompanies-cell">
+        <h3>Product <i class="fa-solid fa-chevron-right"></i></h3>
+        <p>593 are actively hiring</p>
+        <div>
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/267778.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/486862.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/583728.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/44664.gif"
+            alt="logo"
+          />
         </div>
+      </div>
 
-        <div class="topCompanies-cell">
-                <h3>Product <i class="fa-solid fa-chevron-right"></i></h3>
-                <p>593 are actively hiring</p>
-                <div>
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/267778.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/486862.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/583728.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/44664.gif" alt="logo"> 
-                </div>
+      <div class="topCompanies-cell">
+        <h3>Edtech <i class="fa-solid fa-chevron-right"></i></h3>
+        <p>123 are actively hiring</p>
+        <div>
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/4667077.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/4604915.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/4592111.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/1694498.gif"
+            alt="logo"
+          />
         </div>
+      </div>
 
-        <div class="topCompanies-cell">
-                <h3>Edtech <i class="fa-solid fa-chevron-right"></i></h3>
-                <p>123 are actively hiring</p>
-                <div>
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/4667077.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/4604915.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/4592111.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/1694498.gif" alt="logo"> 
-                </div>
+      <div class="topCompanies-cell">
+        <h3>Fintech <i class="fa-solid fa-chevron-right"></i></h3>
+        <p>93 are actively hiring</p>
+        <div>
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/135342.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/4608219.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/4622851.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/896922.gif"
+            alt="logo"
+          />
         </div>
+      </div>
 
-        <div class="topCompanies-cell">
-                <h3>Fintech <i class="fa-solid fa-chevron-right"></i></h3>
-                <p>93 are actively hiring</p>
-                <div>
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/135342.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/4608219.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/4622851.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/896922.gif" alt="logo"> 
-                </div>
+      <div class="topCompanies-cell">
+        <h3>Manufacturing <i class="fa-solid fa-chevron-right"></i></h3>
+        <p>165 are actively hiring</p>
+        <div>
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/28040.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/130432.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/23972.gif"
+            alt="logo"
+          />
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/4602589.gif"
+            alt="logo"
+          />
         </div>
+      </div>
+    </div>
 
-        <div class="topCompanies-cell">
-                <h3>Manufacturing <i class="fa-solid fa-chevron-right"></i></h3>
-                <p>165 are actively hiring</p>
-                <div>
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/28040.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/130432.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/23972.gif" alt="logo">
-                        <img src="https://img.naukimg.com/logo_images/groups/v1/4602589.gif" alt="logo"> 
-                </div>
+    <!-------Explore top companies hiring now sliding window code starts here-------->
+
+    <h1 id="featuredCompanies">Featured companies actively hiring</h1>
+
+    <!-- ---------------- Featured companies actively hiring sliding window starts here----------  -->
+
+    <div class="feaCompanies" data-flickity='{ "groupCells": true }'>
+      <div class="feaCompanies-cell">
+        <img
+          src="https://img.naukimg.com/logo_images/groups/v2/4577755.gif"
+          alt="logo"
+        />
+        <div>
+          <h3>Accolite Digital</h3>
+          <p><span id="starRate">★</span> 4.0 | 270 reviews</p>
         </div>
+        <p>Digital transformation service provider</p>
+        <button id="viewJobsbtn">View Jobs</button>
+      </div>
 
+      <div class="feaCompanies-cell">
+        <img
+          src="https://img.naukimg.com/logo_images/groups/v2/1574056.gif"
+          alt="logo"
+        />
+        <div>
+          <h3>Applied Materials</h3>
+          <p><span id="starRate">★</span> 4.3 | 192 reviews</p>
         </div>
+        <p>Leader in materials engineering solutions.</p>
+        <button id="viewJobsbtn">View Jobs</button>
+      </div>
 
-        <!-------Explore top companies hiring now sliding window code starts here-------->
+      <div class="feaCompanies-cell">
+        <img
+          src="https://img.naukimg.com/logo_images/groups/v2/126896.gif"
+          alt="logo"
+        />
+        <div>
+          <h3>Bharti Airtel</h3>
+          <p><span id="starRate">★</span> 4.1 | 12.2K reviews</p>
+        </div>
+        <p>Leading global telcom company</p>
+        <button id="viewJobsbtn">View Jobs</button>
+      </div>
 
-        <h1 id="featuredCompanies">Featured companies actively hiring</h1>
+      <div class="feaCompanies-cell">
+        <img
+          src="https://img.naukimg.com/logo_images/groups/v2/2436002.gif"
+          alt="logo"
+        />
+        <div>
+          <h3>Xoriant</h3>
+          <p><span id="starRate">★</span> 4.4 | 931 reviews</p>
+        </div>
+        <p>Software development & tech company</p>
+        <button id="viewJobsbtn">View Jobs</button>
+      </div>
 
-        <!-- ---------------- Featured companies actively hiring sliding window starts here----------  -->
+      <div class="feaCompanies-cell">
+        <img
+          src="https://img.naukimg.com/logo_images/groups/v2/18850.gif"
+          alt="logo"
+        />
+        <div>
+          <h3>Oracle</h3>
+          <p><span id="starRate">★</span> 3.9 | 3.7K reviews</p>
+        </div>
+        <p>Cloud technology company since 1977.</p>
+        <button id="viewJobsbtn">View Jobs</button>
+      </div>
 
+      <div class="feaCompanies-cell">
+        <img
+          src="https://img.naukimg.com/logo_images/groups/v2/4582763.gif"
+          alt="logo"
+        />
+        <div>
+          <h3>Biz2Credit</h3>
+          <p><span id="starRate">★</span> 4.3 | 149 reviews</p>
+        </div>
+        <p>Leading the #fintech Revolution.</p>
+        <button id="viewJobsbtn">View Jobs</button>
+      </div>
 
+      <div class="feaCompanies-cell">
+        <img
+          src="https://img.naukimg.com/logo_images/groups/v2/1527726.gif"
+          alt="logo"
+        />
+        <div>
+          <h3>Incedo</h3>
+          <p><span id="starRate">★</span> 4.1 | 381 reviews</p>
+        </div>
+        <p>US-based consulting & tech service firm.</p>
+        <button id="viewJobsbtn">View Jobs</button>
+      </div>
+
+      <div class="feaCompanies-cell">
+        <img
+          src="https://img.naukimg.com/logo_images/groups/v2/42932.gif"
+          alt="logo"
+        />
+        <div>
+          <h3>Genpact</h3>
+          <p><span id="starRate">★</span> 4.0 | 19.7K reviews</p>
+        </div>
+        <p>Global professional service firm</p>
+        <button id="viewJobsbtn">View Jobs</button>
+      </div>
+
+      <div class="feaCompanies-cell">
+        <img
+          src="https://img.naukimg.com/logo_images/groups/v2/41608.gif"
+          alt="logo"
+        />
+        <div>
+          <h3>Wipro</h3>
+          <p><span id="starRate">★</span> 3.9 | 26.1K reviews</p>
+        </div>
+        <p>Leading tech & service consulting.</p>
+        <button id="viewJobsbtn">View Jobs</button>
+      </div>
+
+      <div class="feaCompanies-cell">
+        <img
+          src="https://img.naukimg.com/logo_images/groups/v2/21746.gif"
+          alt="logo"
+        />
+        <div>
+          <h3>FIS</h3>
+          <p><span id="starRate">★</span> 4.1 | 3.3K reviews</p>
+        </div>
+        <p>Global leader in tech & solutions.</p>
+        <button id="viewJobsbtn">View Jobs</button>
+      </div>
+
+      <div class="feaCompanies-cell">
+        <img
+          src="https://img.naukimg.com/logo_images/groups/v2/4156.gif"
+          alt="logo"
+        />
+        <div>
+          <h3>Cognizant</h3>
+          <p><span id="starRate">★</span> 4.0 | 27.3K reviews</p>
+        </div>
+        <p>Leading ITeS company with global presence.</p>
+        <button id="viewJobsbtn">View Jobs</button>
+      </div>
+    </div>
+
+    <div id="viewAllCompanies"><h3>View all companies</h3></div>
+
+    <!------New Section------->
+
+    <!-- ---------------- Featured companies actively hiring sliding window ends here----------  -->
+
+    <!-- Mid Banner starts here -->
+
+    <div id="midMainBanner">
+      <div>
+        <img
+          src="https://static.naukimg.com/s/0/0/i/role-collection.png"
+          alt="logo"
+        />
+        <h1>Discover jobs across popular roles</h1>
+        <p>Select a role and we'll show you relevant jobs for it!</p>
+      </div>
+
+      <!-- sliding window -->
+      <div>
         <div class="feaCompanies" data-flickity='{ "groupCells": true }'>
-                <div class="feaCompanies-cell">
-                    <img src="https://img.naukimg.com/logo_images/groups/v2/4577755.gif" alt="logo">
-                        <div>
-                                <h3>Accolite Digital</h3>
-                                <p><span id="starRate">★</span> 4.0 | 270 reviews</p>
-                        </div>
-                        <p>Digital transformation service provider</p>
-                        <button id="viewJobsbtn">View Jobs</button>
-                </div>
-                
+          <div class="parentForflickity">
+            <div>
+              <h3>Full Stack Developer</h3>
+              <p>26K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
+            <div>
+              <h3>Mobile / App Developer</h3>
+              <p>2K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
+            <div>
+              <h3>Front End Developer</h3>
+              <p>2.8K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
+            <div>
+              <h3>DevOps Engineer</h3>
+              <p>1.6K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
+            <div>
+              <h3>Engineering Manager</h3>
+              <p>1.5K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
+            <div>
+              <h3>Technical Lead</h3>
+              <p>14.5K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
+          </div>
 
-                <div class="feaCompanies-cell">
-                        <img src="https://img.naukimg.com/logo_images/groups/v2/1574056.gif" alt="logo">
-                            <div>
-                                    <h3>Applied Materials</h3>
-                                    <p><span id="starRate">★</span> 4.3 | 192 reviews</p>
-                            </div>
-                            <p>Leader in materials engineering solutions.</p>
-                            <button id="viewJobsbtn">View Jobs</button>
-                    </div>
+          <div class="parentForflickity">
+            <div>
+              <h3>Automation Test</h3>
+              <p>2K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
+            <div>
+              <h3>Cyber Security</h3>
+              <p>389 Jobs <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
+            <div>
+              <h3>Technical Architect</h3>
+              <p>9.4K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
+            <div>
+              <h3>Business Analytics</h3>
+              <p>5.9K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
+            <div>
+              <h3>Data Scientist</h3>
+              <p>758 Jobs <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
+            <div>
+              <h3>Program Manager</h3>
+              <p>1K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
+          </div>
 
+          <div class="parentForflickity">
+            <div>
+              <h3>Product Manager</h3>
+              <p>3K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
+            <div>
+              <h3>UI / UX Designer</h3>
+              <p>825 Jobs <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
+            <div>
+              <h3>Branch Manager</h3>
+              <p>831 Jobs <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
+            <div>
+              <h3>Research Analytics</h3>
+              <p>832 Jobs <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
+            <div>
+              <h3>Functional Analytics</h3>
+              <p>3.8K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
+            <div>
+              <h3>Full Stack Developer</h3>
+              <p>26K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-                    <div class="feaCompanies-cell">
-                        <img src="https://img.naukimg.com/logo_images/groups/v2/126896.gif" alt="logo">
-                            <div>
-                                    <h3>Bharti Airtel</h3>
-                                    <p><span id="starRate">★</span> 4.1 | 12.2K reviews</p>
-                            </div>
-                            <p>Leading global telcom company</p>
-                            <button id="viewJobsbtn">View Jobs</button>
-                    </div>
+    <!-- Mid Banner Ends here -->
+    <!------------------------------------ Shubham's HTML Starts Here ---------------------------------->
 
-                    <div class="feaCompanies-cell">
-                        <img src="https://img.naukimg.com/logo_images/groups/v2/2436002.gif" alt="logo">
-                            <div>
-                                    <h3>Xoriant</h3>
-                                    <p><span id="starRate">★</span> 4.4 | 931 reviews</p>
-                            </div>
-                            <p>Software development & tech company</p>
-                            <button id="viewJobsbtn">View Jobs</button>
-                    </div>
+    <!-- shubham -->
 
-                    <div class="feaCompanies-cell">
-                        <img src="https://img.naukimg.com/logo_images/groups/v2/18850.gif" alt="logo">
-                            <div>
-                                    <h3>Oracle</h3>
-                                    <p><span id="starRate">★</span> 3.9 | 3.7K reviews</p>
-                            </div>
-                            <p>Cloud technology company since 1977.</p>
-                            <button id="viewJobsbtn">View Jobs</button>
-                    </div>
-
-                    <div class="feaCompanies-cell">
-                        <img src="https://img.naukimg.com/logo_images/groups/v2/4582763.gif" alt="logo">
-                            <div>
-                                    <h3>Biz2Credit</h3>
-                                    <p><span id="starRate">★</span> 4.3 | 149 reviews</p>
-                            </div>
-                            <p>Leading the #fintech Revolution.</p>
-                            <button id="viewJobsbtn">View Jobs</button>
-                    </div>
-
-                    <div class="feaCompanies-cell">
-                        <img src="https://img.naukimg.com/logo_images/groups/v2/1527726.gif" alt="logo">
-                            <div>
-                                    <h3>Incedo</h3>
-                                    <p><span id="starRate">★</span> 4.1 | 381 reviews</p>
-                            </div>
-                            <p>US-based consulting & tech service firm.</p>
-                            <button id="viewJobsbtn">View Jobs</button>
-                    </div>
-
-                    <div class="feaCompanies-cell">
-                        <img src="https://img.naukimg.com/logo_images/groups/v2/42932.gif" alt="logo">
-                            <div>
-                                    <h3>Genpact</h3>
-                                    <p><span id="starRate">★</span> 4.0 | 19.7K reviews</p>
-                            </div>
-                            <p>Global professional service firm</p>
-                            <button id="viewJobsbtn">View Jobs</button>
-                    </div>
-
-                    <div class="feaCompanies-cell">
-                        <img src="https://img.naukimg.com/logo_images/groups/v2/41608.gif" alt="logo">
-                            <div>
-                                    <h3>Wipro</h3>
-                                    <p><span id="starRate">★</span> 3.9 | 26.1K reviews</p>
-                            </div>
-                            <p>Leading tech & service consulting.</p>
-                            <button id="viewJobsbtn">View Jobs</button>
-                    </div>
-
-                    <div class="feaCompanies-cell">
-                        <img src="https://img.naukimg.com/logo_images/groups/v2/21746.gif" alt="logo">
-                            <div>
-                                    <h3>FIS</h3>
-                                    <p><span id="starRate">★</span> 4.1 | 3.3K reviews</p>
-                            </div>
-                            <p>Global leader in tech & solutions.</p>
-                            <button id="viewJobsbtn">View Jobs</button>
-                    </div>
-
-                    <div class="feaCompanies-cell">
-                        <img src="https://img.naukimg.com/logo_images/groups/v2/4156.gif" alt="logo">
-                            <div>
-                                    <h3>Cognizant</h3>
-                                    <p><span id="starRate">★</span> 4.0 | 27.3K reviews</p>
-                            </div>
-                            <p>Leading ITeS company with global presence.</p>
-                            <button id="viewJobsbtn">View Jobs</button>
-                    </div>
-                    </div>
-
-                    <div id="viewAllCompanies"><h3>View all companies</h3></div>
-
-
-                    <!------New Section------->
-
-
-        <!-- ---------------- Featured companies actively hiring sliding window ends here----------  -->
-
-                    <!-- Mid Banner starts here -->
-
-                    <div id="midMainBanner">
-                        <div>
-                                <img src="https://static.naukimg.com/s/0/0/i/role-collection.png" alt="logo">
-                                <h1>Discover jobs across popular roles</h1>
-                                <p>Select a role and we'll show you relevant jobs for it!</p>
-                        </div>
-
-                        <!-- sliding window -->
-                        <div>
-                                <div class="feaCompanies" data-flickity='{ "groupCells": true }'>
-                                <div class="parentForflickity">
-                                        <div>
-                                                <h3>Full Stack Developer</h3>
-                                                <p>26K+ Jobs <i class="fa-solid fa-chevron-right"></i> </p>
-                                        </div>
-                                        <div>
-                                                <h3>Mobile / App Developer</h3>
-                                                <p>2K+ Jobs <i class="fa-solid fa-chevron-right"></i> </p>
-                                        </div>
-                                        <div>
-                                                <h3>Front End Developer</h3>
-                                                <p>2.8K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
-                                        </div>
-                                        <div>
-                                                <h3>DevOps Engineer</h3>
-                                                <p>1.6K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
-                                        </div>
-                                        <div>
-                                                <h3>Engineering Manager</h3>
-                                                <p>1.5K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
-                                        </div>
-                                        <div>
-                                                <h3>Technical Lead</h3>
-                                                <p>14.5K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
-                                        </div>
-                                </div>
-
-                                <div class="parentForflickity">
-                                        <div>
-                                                <h3>Automation Test</h3>
-                                                <p>2K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
-                                        </div>
-                                        <div>
-                                                <h3>Cyber Security</h3>
-                                                <p>389 Jobs <i class="fa-solid fa-chevron-right"></i></p>
-                                        </div>
-                                        <div>
-                                                <h3>Technical Architect</h3>
-                                                <p>9.4K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
-                                        </div>
-                                        <div>
-                                                <h3>Business Analytics</h3>
-                                                <p>5.9K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
-                                        </div>
-                                        <div>
-                                                <h3>Data Scientist</h3>
-                                                <p>758 Jobs <i class="fa-solid fa-chevron-right"></i></p>
-                                        </div>
-                                        <div>
-                                                <h3>Program Manager</h3>
-                                                <p>1K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
-                                        </div>
-                                </div>
-
-                                <div class="parentForflickity">
-                                        <div>
-                                                <h3>Product Manager</h3>
-                                                <p>3K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
-                                        </div>
-                                        <div>
-                                                <h3>UI / UX Designer</h3>
-                                                <p>825 Jobs <i class="fa-solid fa-chevron-right"></i></p>
-                                        </div>
-                                        <div>
-                                                <h3>Branch Manager</h3>
-                                                <p>831 Jobs <i class="fa-solid fa-chevron-right"></i></p>
-                                        </div>
-                                        <div>
-                                                <h3>Research Analytics</h3>
-                                                <p>832 Jobs <i class="fa-solid fa-chevron-right"></i></p>
-                                        </div>
-                                        <div>
-                                                <h3>Functional Analytics</h3>
-                                                <p>3.8K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
-                                        </div>
-                                        <div>
-                                                <h3>Full Stack Developer</h3>
-                                                <p>26K+ Jobs <i class="fa-solid fa-chevron-right"></i></p>
-                                        </div>
-                                </div>
-                                </div>
-                        </div>
-                    </div>
-
-
-
-                    <!-- Mid Banner Ends here -->
- <!------------------------------------ Shubham's HTML Starts Here ---------------------------------->
-                
- <!-- shubham -->
-
-    
     <!-- first section -->
     <div id="Sponsored_companies_div">
-        <div id="Sponsored_companies_title"> Sponsored companies </div>
-        <div id="Sponsored_companies_navbar">
-            <button>All</button>
-            <button>IT Services</button>
-            <button>Technology</button>
-            <button>BFSI</button>
-            <button>Manufacturing & Production</button>
-            <button>Healthcare & Life Sciences</button>
-            <!-- <button>Infrastructure, Transport & Real Estate</button>
+      <div id="Sponsored_companies_title">Sponsored companies</div>
+      <div id="Sponsored_companies_navbar">
+        <button>All</button>
+        <button>IT Services</button>
+        <button>Technology</button>
+        <button>BFSI</button>
+        <button>Manufacturing & Production</button>
+        <button>Healthcare & Life Sciences</button>
+        <!-- <button>Infrastructure, Transport & Real Estate</button>
             <button>BPM</button>
             <button>Consumer, Retail & Hospitality</button> -->
-            <button id="more_btn">+3 more</button>
-        </div>
-        <div id="Sponsored_companies_container">
-            <div class="sponsored_child_container">
-                <img src="https://img.naukimg.com/logo_images/groups/v1/4618647.gif" alt="Pega">
-                <h3>Pega <i class="fa-solid fa-angle-right"></i></h3>
-                <div class="sponsored_child_rating">
-                    <p><img src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg" alt="rating"></p>
-                    <p> 4.2 </p>
-                    <p> | </p>
-                    <p>36 reviews</p>
-                </div>
-                <div class="sponsored_child_details">
-                    <p>B2C</p>
-                    <p>Startup</p>
-                    <p>Internet</p>
-                    <p>Product</p>
-                    <p>Corporate</p>
-                    <p>B2B</p>
-                </div>  
-            </div>
-
-            <div class="sponsored_child_container">
-                <img src="https://img.naukimg.com/logo_images/groups/v1/4620409.gif" alt="PK">
-                <h3>PK <i class="fa-solid fa-angle-right"></i></h3>
-                <div class="sponsored_child_rating">
-                    <p><img src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg" alt="rating"></p>
-                    <p> 4.2 </p>
-                    <p> | </p>
-                    <p>36 reviews</p>
-                </div>
-                <div class="sponsored_child_details">
-                    <p>B2C</p>
-                    <p>Startup</p>
-                    <p>Internet</p>
-                    <p>Product</p>
-                    <p>Corporate</p>
-                    <p>B2B</p>
-                </div>
-            </div>
-
-            <div class="sponsored_child_container">
-                <img src="https://img.naukimg.com/logo_images/groups/v1/306162.gif" alt="National Payments Corporation">
-                <h3>National Payments.. <i class="fa-solid fa-angle-right"></i></h3>
-                <div class="sponsored_child_rating">
-                    <p><img src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg" alt="rating"></p>
-                    <p> 4.2 </p>
-                    <p> | </p>
-                    <p>36 reviews</p>
-                </div>
-                <div class="sponsored_child_details">
-                    <p>B2C</p>
-                    <p>Startup</p>
-                    <p>Internet</p>
-                    <p>Product</p>
-                    <p>Corporate</p>
-                    <p>B2B</p>
-                </div>          
-            </div>
-
-            <div class="sponsored_child_container">
-                <img src="https://img.naukimg.com/logo_images/groups/v1/246024.gif" alt="Tata Technologies">
-                <h3>Tata Technologies <i class="fa-solid fa-angle-right"></i></h3>
-                <div class="sponsored_child_rating">
-                    <p><img src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg" alt="rating"></p>
-                    <p> 4.2 </p>
-                    <p> | </p>
-                    <p>36 reviews</p>
-                </div>
-                <div class="sponsored_child_details">
-                    <p>B2C</p>
-                    <p>Startup</p>
-                    <p>Internet</p>
-                    <p>Product</p>
-                    <p>Corporate</p>
-                    <p>B2B</p>
-                </div>   
-            </div>
-
-            <div class="sponsored_child_container">
-                <img src="https://img.naukimg.com/logo_images/groups/v1/709704.gif" alt="NTT DATA">
-                <h3>NTT DATA Busine.. <i class="fa-solid fa-angle-right"></i></h3>
-                <div class="sponsored_child_rating">
-                    <p><img src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg" alt="rating"></p>
-                    <p> 4.2 </p>
-                    <p> | </p>
-                    <p>36 reviews</p>
-                </div>
-                <div class="sponsored_child_details">
-                    <p>B2C</p>
-                    <p>Startup</p>
-                    <p>Internet</p>
-                    <p>Product</p>
-                    <p>Corporate</p>
-                    <p>B2B</p>
-                </div>   
-            </div>
-
-            <div class="sponsored_child_container">
-                <img src="https://img.naukimg.com/logo_images/groups/v1/184826.gif" alt="Cornerstone">
-                <h3>Cornerstone <i class="fa-solid fa-angle-right"></i></h3>
-                <div class="sponsored_child_rating">
-                    <p><img src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg" alt="rating"></p>
-                    <p> 4.2 </p>
-                    <p> | </p>
-                    <p>36 reviews</p>
-                </div>
-                <div class="sponsored_child_details">
-                    <p>B2C</p>
-                    <p>Startup</p>
-                    <p>Internet</p>
-                    <p>Product</p>
-                    <p>Corporate</p>
-                    <p>B2B</p>
-                </div>  
-            </div>
-
-            <div class="sponsored_child_container">
-                <img src="https://img.naukimg.com/logo_images/groups/v1/675406.gif" alt="Infinite">
-                <h3>Infinite <i class="fa-solid fa-angle-right"></i></h3>
-                <div class="sponsored_child_rating">
-                    <p><img src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg" alt="rating"></p>
-                    <p> 4.2 </p>
-                    <p> | </p>
-                    <p>36 reviews</p>
-                </div>
-                <div class="sponsored_child_details">
-                    <p>B2C</p>
-                    <p>Startup</p>
-                    <p>Internet</p>
-                    <p>Product</p>
-                    <p>Corporate</p>
-                    <p>B2B</p>
-                </div>  
-            </div>
-
-            <div class="sponsored_child_container">
-                <img src="https://img.naukimg.com/logo_images/groups/v1/4621437.gif" alt="Rakuten">
-                <h3>Rakuten <i class="fa-solid fa-angle-right"></i></h3>
-                <div class="sponsored_child_rating">
-                    <p><img src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg" alt="rating"></p>
-                    <p> 4.2 </p>
-                    <p> | </p>
-                    <p>36 reviews</p>
-                </div>
-                <div class="sponsored_child_details">
-                    <p>B2C</p>
-                    <p>Startup</p>
-                    <p>Internet</p>
-                    <p>Product</p>
-                    <p>Corporate</p>
-                    <p>B2B</p>
-                </div>
-                
-            </div>
-            <div class="sponsored_child_container">
-                <img src="https://img.naukimg.com/logo_images/groups/v1/315118.gif" alt="Datamatics Global">
-                <h3>Datamatics Global.. <i class="fa-solid fa-angle-right"></i></h3>
-                <div class="sponsored_child_rating">
-                    <p><img src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg" alt="rating"></p>
-                    <p> 4.2 </p>
-                    <p> | </p>
-                    <p>36 reviews</p>
-                </div>
-                <div class="sponsored_child_details">
-                    <p>B2C</p>
-                    <p>Startup</p>
-                    <p>Internet</p>
-                    <p>Product</p>
-                    <p>Corporate</p>
-                    <p>B2B</p>
-                </div>
-                
-            </div>
-            <div class="sponsored_child_container">
-                <img src="https://img.naukimg.com/logo_images/groups/v1/4910339.gif" alt="Intouch">
-                <h3>24-7 Intouch <i class="fa-solid fa-angle-right"></i></h3>
-                <div class="sponsored_child_rating">
-                    <p><img src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg" alt="rating"></p>
-                    <p> 4.2 </p>
-                    <p> | </p>
-                    <p>36 reviews</p>
-                </div>
-                <div class="sponsored_child_details">
-                    <p>B2C</p>
-                    <p>Startup</p>
-                    <p>Internet</p>
-                    <p>Product</p>
-                    <p>Corporate</p>
-                    <p>B2B</p>
-                </div>
-                
-            </div>
-
-            <div class="sponsored_child_container">
-                <img src="https://img.naukimg.com/logo_images/groups/v1/4663071.gif" alt="GLOBALFOUNDRIES">
-                <h3>GLOBALFOUNDRIES <i class="fa-solid fa-angle-right"></i></h3>
-                <div class="sponsored_child_rating">
-                    <p><img src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg" alt="rating"></p>
-                    <p> 4.2 </p>
-                    <p> | </p>
-                    <p>36 reviews</p>
-                </div>
-                <div class="sponsored_child_details">
-                    <p>B2C</p>
-                    <p>Startup</p>
-                    <p>Internet</p>
-                    <p>Product</p>
-                    <p>Corporate</p>
-                    <p>B2B</p>
-                </div>
-                
-            </div>
-
-            <div class="sponsored_child_container">
-                <img src="https://img.naukimg.com/logo_images/groups/v1/289444.gif" alt="ValueLabs">
-                <h3>ValueLabs <i class="fa-solid fa-angle-right"></i></h3>
-                <div class="sponsored_child_rating">
-                    <p><img src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg" alt="rating"></p>
-                    <p> 4.2 </p>
-                    <p> | </p>
-                    <p>36 reviews</p>
-                </div>
-                <div class="sponsored_child_details">
-                    <p>B2C</p>
-                    <p>Startup</p>
-                    <p>Internet</p>
-                    <p>Product</p>
-                    <p>Corporate</p>
-                    <p>B2B</p>
-                </div>
-                
-            </div>
-
-            <div class="sponsored_child_container">
-                <img src="https://img.naukimg.com/logo_images/groups/v1/1185500.gif" alt="GSPANN">
-                <h3>GSPANN <i class="fa-solid fa-angle-right"></i></h3>
-                <div class="sponsored_child_rating">
-                    <p><img src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg" alt="rating"></p>
-                    <p> 4.2 </p>
-                    <p> | </p>
-                    <p>36 reviews</p>
-                </div>
-                <div class="sponsored_child_details">
-                    <p>B2C</p>
-                    <p>Startup</p>
-                    <p>Internet</p>
-                    <p>Product</p>
-                    <p>Corporate</p>
-                    <p>B2B</p>
-                </div>
-                
-            </div>
-
-        </div>
-        <div id="viewAll_lastbtn">
-            <button>View all companies</button>
+        <button id="more_btn">+3 more</button>
+      </div>
+      <div id="Sponsored_companies_container">
+        <div class="sponsored_child_container">
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/4618647.gif"
+            alt="Pega"
+          />
+          <h3>Pega <i class="fa-solid fa-angle-right"></i></h3>
+          <div class="sponsored_child_rating">
+            <p>
+              <img
+                src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg"
+                alt="rating"
+              />
+            </p>
+            <p>4.2</p>
+            <p>|</p>
+            <p>36 reviews</p>
+          </div>
+          <div class="sponsored_child_details">
+            <p>B2C</p>
+            <p>Startup</p>
+            <p>Internet</p>
+            <p>Product</p>
+            <p>Corporate</p>
+            <p>B2B</p>
+          </div>
         </div>
 
+        <div class="sponsored_child_container">
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/4620409.gif"
+            alt="PK"
+          />
+          <h3>PK <i class="fa-solid fa-angle-right"></i></h3>
+          <div class="sponsored_child_rating">
+            <p>
+              <img
+                src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg"
+                alt="rating"
+              />
+            </p>
+            <p>4.2</p>
+            <p>|</p>
+            <p>36 reviews</p>
+          </div>
+          <div class="sponsored_child_details">
+            <p>B2C</p>
+            <p>Startup</p>
+            <p>Internet</p>
+            <p>Product</p>
+            <p>Corporate</p>
+            <p>B2B</p>
+          </div>
+        </div>
+
+        <div class="sponsored_child_container">
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/306162.gif"
+            alt="National Payments Corporation"
+          />
+          <h3>National Payments.. <i class="fa-solid fa-angle-right"></i></h3>
+          <div class="sponsored_child_rating">
+            <p>
+              <img
+                src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg"
+                alt="rating"
+              />
+            </p>
+            <p>4.2</p>
+            <p>|</p>
+            <p>36 reviews</p>
+          </div>
+          <div class="sponsored_child_details">
+            <p>B2C</p>
+            <p>Startup</p>
+            <p>Internet</p>
+            <p>Product</p>
+            <p>Corporate</p>
+            <p>B2B</p>
+          </div>
+        </div>
+
+        <div class="sponsored_child_container">
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/246024.gif"
+            alt="Tata Technologies"
+          />
+          <h3>Tata Technologies <i class="fa-solid fa-angle-right"></i></h3>
+          <div class="sponsored_child_rating">
+            <p>
+              <img
+                src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg"
+                alt="rating"
+              />
+            </p>
+            <p>4.2</p>
+            <p>|</p>
+            <p>36 reviews</p>
+          </div>
+          <div class="sponsored_child_details">
+            <p>B2C</p>
+            <p>Startup</p>
+            <p>Internet</p>
+            <p>Product</p>
+            <p>Corporate</p>
+            <p>B2B</p>
+          </div>
+        </div>
+
+        <div class="sponsored_child_container">
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/709704.gif"
+            alt="NTT DATA"
+          />
+          <h3>NTT DATA Busine.. <i class="fa-solid fa-angle-right"></i></h3>
+          <div class="sponsored_child_rating">
+            <p>
+              <img
+                src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg"
+                alt="rating"
+              />
+            </p>
+            <p>4.2</p>
+            <p>|</p>
+            <p>36 reviews</p>
+          </div>
+          <div class="sponsored_child_details">
+            <p>B2C</p>
+            <p>Startup</p>
+            <p>Internet</p>
+            <p>Product</p>
+            <p>Corporate</p>
+            <p>B2B</p>
+          </div>
+        </div>
+
+        <div class="sponsored_child_container">
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/184826.gif"
+            alt="Cornerstone"
+          />
+          <h3>Cornerstone <i class="fa-solid fa-angle-right"></i></h3>
+          <div class="sponsored_child_rating">
+            <p>
+              <img
+                src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg"
+                alt="rating"
+              />
+            </p>
+            <p>4.2</p>
+            <p>|</p>
+            <p>36 reviews</p>
+          </div>
+          <div class="sponsored_child_details">
+            <p>B2C</p>
+            <p>Startup</p>
+            <p>Internet</p>
+            <p>Product</p>
+            <p>Corporate</p>
+            <p>B2B</p>
+          </div>
+        </div>
+
+        <div class="sponsored_child_container">
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/675406.gif"
+            alt="Infinite"
+          />
+          <h3>Infinite <i class="fa-solid fa-angle-right"></i></h3>
+          <div class="sponsored_child_rating">
+            <p>
+              <img
+                src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg"
+                alt="rating"
+              />
+            </p>
+            <p>4.2</p>
+            <p>|</p>
+            <p>36 reviews</p>
+          </div>
+          <div class="sponsored_child_details">
+            <p>B2C</p>
+            <p>Startup</p>
+            <p>Internet</p>
+            <p>Product</p>
+            <p>Corporate</p>
+            <p>B2B</p>
+          </div>
+        </div>
+
+        <div class="sponsored_child_container">
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/4621437.gif"
+            alt="Rakuten"
+          />
+          <h3>Rakuten <i class="fa-solid fa-angle-right"></i></h3>
+          <div class="sponsored_child_rating">
+            <p>
+              <img
+                src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg"
+                alt="rating"
+              />
+            </p>
+            <p>4.2</p>
+            <p>|</p>
+            <p>36 reviews</p>
+          </div>
+          <div class="sponsored_child_details">
+            <p>B2C</p>
+            <p>Startup</p>
+            <p>Internet</p>
+            <p>Product</p>
+            <p>Corporate</p>
+            <p>B2B</p>
+          </div>
+        </div>
+        <!-- <div class="sponsored_child_container">
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/315118.gif"
+            alt="Datamatics Global"
+          />
+          <h3>Datamatics Global.. <i class="fa-solid fa-angle-right"></i></h3>
+          <div class="sponsored_child_rating">
+            <p>
+              <img
+                src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg"
+                alt="rating"
+              />
+            </p>
+            <p>4.2</p>
+            <p>|</p>
+            <p>36 reviews</p>
+          </div>
+          <div class="sponsored_child_details">
+            <p>B2C</p>
+            <p>Startup</p>
+            <p>Internet</p>
+            <p>Product</p>
+            <p>Corporate</p>
+            <p>B2B</p>
+          </div>
+        </div> -->
+        <!-- <div class="sponsored_child_container">
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/4910339.gif"
+            alt="Intouch"
+          />
+          <h3>24-7 Intouch <i class="fa-solid fa-angle-right"></i></h3>
+          <div class="sponsored_child_rating">
+            <p>
+              <img
+                src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg"
+                alt="rating"
+              />
+            </p>
+            <p>4.2</p>
+            <p>|</p>
+            <p>36 reviews</p>
+          </div>
+          <div class="sponsored_child_details">
+            <p>B2C</p>
+            <p>Startup</p>
+            <p>Internet</p>
+            <p>Product</p>
+            <p>Corporate</p>
+            <p>B2B</p>
+          </div>
+        </div>
+
+        <div class="sponsored_child_container">
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/4663071.gif"
+            alt="GLOBALFOUNDRIES"
+          />
+          <h3>GLOBALFOUNDRIES <i class="fa-solid fa-angle-right"></i></h3>
+          <div class="sponsored_child_rating">
+            <p>
+              <img
+                src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg"
+                alt="rating"
+              />
+            </p>
+            <p>4.2</p>
+            <p>|</p>
+            <p>36 reviews</p>
+          </div>
+          <div class="sponsored_child_details">
+            <p>B2C</p>
+            <p>Startup</p>
+            <p>Internet</p>
+            <p>Product</p>
+            <p>Corporate</p>
+            <p>B2B</p>
+          </div>
+        </div>
+
+        <div class="sponsored_child_container">
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/289444.gif"
+            alt="ValueLabs"
+          />
+          <h3>ValueLabs <i class="fa-solid fa-angle-right"></i></h3>
+          <div class="sponsored_child_rating">
+            <p>
+              <img
+                src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg"
+                alt="rating"
+              />
+            </p>
+            <p>4.2</p>
+            <p>|</p>
+            <p>36 reviews</p>
+          </div>
+          <div class="sponsored_child_details">
+            <p>B2C</p>
+            <p>Startup</p>
+            <p>Internet</p>
+            <p>Product</p>
+            <p>Corporate</p>
+            <p>B2B</p>
+          </div>
+        </div>
+
+        <div class="sponsored_child_container">
+          <img
+            src="https://img.naukimg.com/logo_images/groups/v1/1185500.gif"
+            alt="GSPANN"
+          />
+          <h3>GSPANN <i class="fa-solid fa-angle-right"></i></h3>
+          <div class="sponsored_child_rating">
+            <p>
+              <img
+                src="https://static.naukimg.com/s/7/0/assets/images/node_modules/@naukri-ui-dev/premiumstandardads/component/assets/star.625a2323.svg"
+                alt="rating"
+              />
+            </p>
+            <p>4.2</p>
+            <p>|</p>
+            <p>36 reviews</p>
+          </div>
+          <div class="sponsored_child_details">
+            <p>B2C</p>
+            <p>Startup</p>
+            <p>Internet</p>
+            <p>Product</p>
+            <p>Corporate</p>
+            <p>B2B</p>
+          </div>
+        </div> -->
+      </div>
+      <div id="viewAll_lastbtn">
+        <button>View all companies</button>
+      </div>
     </div>
 
     <!-- second section -->
 
     <div id="by_ambition_box">
-        <div id="by_ambition_box_1st_div">
-            <button>by Ambition Box</button>
-            <h1>Prepare for your next interview</h1>
-            <img src="https://static.naukimg.com/s/0/0/i/ab-interview.png" alt="interview pic">
-        </div>
-        <div id="by_ambition_box_2nd_div">
-            <p>Interview questions by company</p>
+      <div id="by_ambition_box_1st_div">
+        <button>by Ambition Box</button>
+        <h1>Prepare for your next interview</h1>
+        <img
+          src="https://static.naukimg.com/s/0/0/i/ab-interview.png"
+          alt="interview pic"
+        />
+      </div>
+      <div id="by_ambition_box_2nd_div">
+        <p>Interview questions by company</p>
+        <div>
+          <div>
+            <img
+              src="https://static.naukimg.com/s/0/0/i/ambitionbox-comp/accenture.png"
+              alt="Accenture"
+            />
             <div>
-                <div>
-                    <img src="https://static.naukimg.com/s/0/0/i/ambitionbox-comp/accenture.png" alt="Accenture">
-                    <div>
-                        <h3>Accenture <span><i class="fa-solid fa-angle-right"></i></span> </h3>
-                        <p>2K+ Interviews</p>
-                    </div>
-                </div>
-                
-                <div>
-                    <img src="https://static.naukimg.com/s/0/0/i/ambitionbox-comp/flipkart.png" alt="flipkart">
-                    <div>
-                        <h3>Flipkart <span><i class="fa-solid fa-angle-right"></i></span> </h3>
-                        <p>488 Interviews</p>
-                    </div>
-                </div>
-
-                <div>
-                    <img src="https://static.naukimg.com/s/0/0/i/ambitionbox-comp/tcs.png" alt="TCS">
-                    <div>
-                        <h3>TCS <span><i class="fa-solid fa-angle-right"></i></span> </h3>
-                        <p>2.5K+ Interviews</p>
-                    </div>
-                </div>
-
-                <div>
-                    <img src="https://static.naukimg.com/s/0/0/i/ambitionbox-comp/byjus.png" alt="Byjus">
-                    <div>
-                        <h3>Byjus <span><i class="fa-solid fa-angle-right"></i></span> </h3>
-                        <p>816 Interviews</p>
-                    </div>
-                </div>
-                
-                <div>
-                    <img src="https://static.naukimg.com/s/0/0/i/ambitionbox-comp/amazon.png" alt="Amazon">
-                    <div>
-                        <h3>Amazon <span><i class="fa-solid fa-angle-right"></i></span> </h3>
-                        <p>1.7K+ Interviews</p>
-                    </div>
-                </div>
-
-                <div>
-                    <img src="https://static.naukimg.com/s/0/0/i/ambitionbox-comp/cognizant.png" alt="Cognizant">
-                    <div>
-                        <h3>Cognizant <span><i class="fa-solid fa-angle-right"></i></span> </h3>
-                        <p>1.6K+ Interviews</p>
-                    </div>
-                </div>  
-                
+              <h3>
+                Accenture <span><i class="fa-solid fa-angle-right"></i></span>
+              </h3>
+              <p>2K+ Interviews</p>
             </div>
+          </div>
 
-          <button>View all companies <span><i class="fa-solid fa-angle-right"></i></span> </button>
-
-        </div>
-
-        <div id="by_ambition_box_3rd_div">
-            <p>Interview questions by role</p>
+          <div>
+            <img
+              src="https://static.naukimg.com/s/0/0/i/ambitionbox-comp/flipkart.png"
+              alt="flipkart"
+            />
             <div>
-                <p>Software Engineer <span>(7.2K+ questions)</span> </p>
-                <hr>
-                <p>Business Analyst  <span>(2.8K+ questions)</span></p>
-                <hr>
-                <p>Consultant  <span>(2.4K+ questions)</span></p>
-                <hr>
-                <p>Financial Analyst  <span>(894 questions)</span></p>
-                <hr>
-                <p>Sales & Marketing  <span>(991 questions)</span></p>
-                <hr>
-                <p>Quality Engineer  <span>(1.3K+ questions)</span></p>
+              <h3>
+                Flipkart <span><i class="fa-solid fa-angle-right"></i></span>
+              </h3>
+              <p>488 Interviews</p>
             </div>
+          </div>
 
-            <button>View all roles <i class="fa-solid fa-angle-right"></i> </button>
+          <div>
+            <img
+              src="https://static.naukimg.com/s/0/0/i/ambitionbox-comp/tcs.png"
+              alt="TCS"
+            />
+            <div>
+              <h3>
+                TCS <span><i class="fa-solid fa-angle-right"></i></span>
+              </h3>
+              <p>2.5K+ Interviews</p>
+            </div>
+          </div>
 
+          <div>
+            <img
+              src="https://static.naukimg.com/s/0/0/i/ambitionbox-comp/byjus.png"
+              alt="Byjus"
+            />
+            <div>
+              <h3>
+                Byjus <span><i class="fa-solid fa-angle-right"></i></span>
+              </h3>
+              <p>816 Interviews</p>
+            </div>
+          </div>
+
+          <div>
+            <img
+              src="https://static.naukimg.com/s/0/0/i/ambitionbox-comp/amazon.png"
+              alt="Amazon"
+            />
+            <div>
+              <h3>
+                Amazon <span><i class="fa-solid fa-angle-right"></i></span>
+              </h3>
+              <p>1.7K+ Interviews</p>
+            </div>
+          </div>
+
+          <div>
+            <img
+              src="https://static.naukimg.com/s/0/0/i/ambitionbox-comp/cognizant.png"
+              alt="Cognizant"
+            />
+            <div>
+              <h3>
+                Cognizant <span><i class="fa-solid fa-angle-right"></i></span>
+              </h3>
+              <p>1.6K+ Interviews</p>
+            </div>
+          </div>
         </div>
 
+        <button>
+          View all companies
+          <span><i class="fa-solid fa-angle-right"></i></span>
+        </button>
+      </div>
+
+      <div id="by_ambition_box_3rd_div">
+        <p>Interview questions by role</p>
+        <div>
+          <p>Software Engineer <span>(7.2K+ questions)</span></p>
+          <hr />
+          <p>Business Analyst <span>(2.8K+ questions)</span></p>
+          <hr />
+          <p>Consultant <span>(2.4K+ questions)</span></p>
+          <hr />
+          <p>Financial Analyst <span>(894 questions)</span></p>
+          <hr />
+          <p>Sales & Marketing <span>(991 questions)</span></p>
+          <hr />
+          <p>Quality Engineer <span>(1.3K+ questions)</span></p>
+        </div>
+
+        <button>View all roles <i class="fa-solid fa-angle-right"></i></button>
+      </div>
     </div>
 
     <!-- 3rd section -->
 
     <div id="by_naukri_fastforward">
-        <div id="by_naukri_fastforward_1st_div">
-            <img src="https://static.naukimg.com/s/0/0/i/ff-services.png" alt="naukri2">
-        </div>
-        <div id="by_naukri_fastforward_2nd_div">
-            <h3>Accelerate your job search with premium services</h3>
-            <p>Services to help you get hired, faster: from preparing your CV, getting recruiter attention, finding the right jobs, and more!</p>
-            <button> <i class="fa-regular fa-pen-to-square"></i> Resume Writing <i class="fa-solid fa-angle-right"></i> </button>
-            <button> <i class="fa-solid fa-bolt"></i> Priority applicant <i class="fa-solid fa-angle-right"></i> </button>
-            <button> <i class="fa-regular fa-file"></i> Resume display <i class="fa-solid fa-angle-right"></i> </button>
-        </div>
+      <div id="by_naukri_fastforward_1st_div">
+        <img
+          src="https://static.naukimg.com/s/0/0/i/ff-services.png"
+          alt="naukri2"
+        />
+      </div>
+      <div id="by_naukri_fastforward_2nd_div">
+        <h3>Accelerate your job search with premium services</h3>
+        <p>
+          Services to help you get hired, faster: from preparing your CV,
+          getting recruiter attention, finding the right jobs, and more!
+        </p>
+        <button>
+          <i class="fa-regular fa-pen-to-square"></i> Resume Writing
+          <i class="fa-solid fa-angle-right"></i>
+        </button>
+        <button>
+          <i class="fa-solid fa-bolt"></i> Priority applicant
+          <i class="fa-solid fa-angle-right"></i>
+        </button>
+        <button>
+          <i class="fa-regular fa-file"></i> Resume display
+          <i class="fa-solid fa-angle-right"></i>
+        </button>
+      </div>
+      <div>
         <div>
-            <div>
-                <button>by Naukri Fastforward</button>
-            </div>
-            
-            <button>Learn more</button>
-            <p>Includes paid services</p>
+          <button>by Naukri Fastforward</button>
         </div>
+
+        <button>Learn more</button>
+        <p>Includes paid services</p>
+      </div>
     </div>
 
     <!-- 4th section  -->
 
     <div id="by_naukri_learning">
-        <div>
-            <button>by Naukri Learning</button>
-            <h1>Grow your career through learning</h1>
-            <img src="https://static.naukimg.com/s/0/0/i/learn-icon.svg" alt="learning pic">
+      <div>
+        <button>by Naukri Learning</button>
+        <h1>Grow your career through learning</h1>
+        <img
+          src="https://static.naukimg.com/s/0/0/i/learn-icon.svg"
+          alt="learning pic"
+        />
+      </div>
+     <!-- <div class="carousel" data-flickity='{ "groupCells": true }'> -->
+      <div id="by_naukri_learning_2nd_div">
+        <div id="by_naukri_learning_data">
+          <p>Data Science</p>
+          <h2>Artificial Intelligence</h2>
+          <p>
+            Learn in demand AI skills like Deep learning, NLP, Computer vision
+            and more for career growth across different roles.
+          </p>
         </div>
-        <div id="by_naukri_learning_2nd_div">
-            <div id="by_naukri_learning_data">
-                <p>Data Science</p>
-                <h2>Artificial Intelligence</h2>
-                <p>Learn in demand AI skills like Deep learning, NLP, Computer vision and more for career growth across different roles.</p>
-            </div>
-            
-            <div id="by_naukri_learning_btn">
-                <button>600 courses</button>
-                <button>28 providers</button>
-            </div>
-        </div>
-        <div>
-            <div id="by_naukri_learning_data">
-                <p>Cloud Technologies</p>
-                <h2>AWS</h2>
-                <p>Get certified for high demand cloud computing skills for Cloud practitioner, Architect, Developer, and Operations roles.</p>
-            </div>
 
-            <div id="by_naukri_learning_btn">
-                <button>800 courses</button>
-                <button>16 providers</button>
-            </div>
+        <div id="by_naukri_learning_btn">
+          <button>600 courses</button>
+          <button>28 providers</button>
         </div>
-        <div>
-            <div id="by_naukri_learning_data">
-                <p>Programming</p>
-                <h2>Data Structures & Algorithms</h2>
-                <p>Master DS and Algorithms for entry level engineering roles in product companies and for competitive programming.</p>
-            </div>
+      </div>
+      <div>
+        <div id="by_naukri_learning_data">
+          <p>Cloud Technologies</p>
+          <h2>AWS</h2>
+          <p>
+            Get certified for high demand cloud computing skills for Cloud
+            practitioner, Architect, Developer, and Operations roles.
+          </p>
+        </div>
 
-            <div id="by_naukri_learning_btn">
-                <button>800 courses</button>
-                <button>13 providers</button>
-            </div>
+        <div id="by_naukri_learning_btn">
+          <button>800 courses</button>
+          <button>16 providers</button>
         </div>
-        <!-- <div>
+      </div>
+      <div>
+        <div id="by_naukri_learning_data">
+          <p>Programming</p>
+          <h2>Data Structures & Algorithms</h2>
+          <p>
+            Master DS and Algorithms for entry level engineering roles in
+            product companies and for competitive programming.
+          </p>
+        </div>
+
+        <div id="by_naukri_learning_btn">
+          <button>800 courses</button>
+          <button>13 providers</button>
+        </div>
+      </div>
+      
+      <!-- <div>
             <div id="by_naukri_learning_data">
                 <p>Management</p>
                 <h2>Strategy and Leadership</h2>
@@ -975,46 +1594,58 @@
                 <button>42 providers</button>
             </div>
         </div> -->
+        <!-- this is used for flickity div -->
+        <!-- </div>   -->
     </div>
 
     <!-- 5th section  -->
 
     <div id="naukri_app_download">
-        <div id="naukri_app_download_1st_div">
-            <div id="naukri_app_child_1st_div">
-                <h1>10M+ users are on the Naukri app</h1>
-                <p>Get real-time job updates & more!</p>
-                <div>
-                     <input type="number" placeholder="Enter mobile number...">
-                     <button>Get link</button>
-                </div>
-                <div>
-                    <img src="https://static.naukimg.com/s/0/0/i/download-app-link/Gplay.png" alt="google play">
-                    <img src="https://static.naukimg.com/s/0/0/i/download-app-link/Appstore.png" alt="app store">
-                </div>
-                
-            </div>
-            <div id="naukri_app_child_2nd_div">
-                <div>
-                    <img src="https://static.naukimg.com/s/0/0/i/download-app-link/qr-code.svg" alt="bar code">
-                    <p>Scan to download</p>
-                </div>  
-            </div>
+      <div id="naukri_app_download_1st_div">
+        <div id="naukri_app_child_1st_div">
+          <h1>10M+ users are on the Naukri app</h1>
+          <p>Get real-time job updates & more!</p>
+          <div>
+            <input type="number" placeholder="Enter mobile number..." />
+            <button>Get link</button>
+          </div>
+          <div>
+            <img
+              src="https://static.naukimg.com/s/0/0/i/download-app-link/Gplay.png"
+              alt="google play"
+            />
+            <img
+              src="https://static.naukimg.com/s/0/0/i/download-app-link/Appstore.png"
+              alt="app store"
+            />
+          </div>
         </div>
+        <div id="naukri_app_child_2nd_div">
+          <div>
+            <img
+              src="https://static.naukimg.com/s/0/0/i/download-app-link/qr-code.svg"
+              alt="bar code"
+            />
+            <p>Scan to download</p>
+          </div>
+        </div>
+      </div>
 
-        <div>
-            <img src="https://static.naukimg.com/s/0/0/i/download-app-link/MaskGroup.png" alt="app sample">
-        </div>
+      <div>
+        <img
+          src="https://static.naukimg.com/s/0/0/i/download-app-link/MaskGroup.png"
+          alt="app sample"
+        />
+      </div>
     </div>
 
     <!-- footer line -->
 
-    <hr id="footer_horizontle_line">
+    <hr id="footer_horizontle_line" />
 
     <!-- footer section -->
 
     <!-- <div id="only_footer_section"></div> -->
-
 
     <!-- shivani code -->
 
@@ -1050,7 +1681,7 @@
             <i class="fa-brands fa-linkedin fa-2x" style="color: grey"></i>
           </div>
         </div>
-    </div>
+      </div>
       <div class="card2">
         <div class="grid-container">
           <div class="grid-item">About us</div>
@@ -1094,9 +1725,7 @@
       </div>
     </div>
     <hr class="dn" />
-
-
-</body>
+  </body>
 </html>
 
 <script src="index.js"></script>

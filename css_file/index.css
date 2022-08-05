@@ -2,6 +2,15 @@
 @import "../css_file/navbar.css";
 @import "../css_file/Sponsored\ companies.css";
 @import "../css_file/footer.css";
+@import "../navbar_hover/navjob.css";
+@import "../navbar_hover/navcompanies.css";
+@import "../navbar_hover/navservices.css";
+@import "../navbar_hover/navresources.css";
+@import "../navbar_hover/navemployees.css";
+@import "../css_file/login.css";
+@import "../css_file/loginClose.css";
+
+
 
 body{
     background-color: #f9fafe;

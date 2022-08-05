@@ -9,6 +9,10 @@ body {
     height: 72px;
     background-color: whitesmoke;
     text-align: center;
+    position: sticky;
+    top: 0px;
+    /* padding: 5px; */
+    z-index: 1;
   }
 
   #navbar_parent_div > div {
@@ -37,7 +41,7 @@ body {
     color: black;
     cursor: pointer;
     font-weight: 800;
-    border-bottom: 5px solid red;
+    border-bottom: 5px solid #ff7555;
   }
 
   #navbar_parent_div > div > .img_logo :hover {
@@ -93,6 +97,11 @@ body {
     height: 36px;
   }
 
+  #for_only_border {
+    border-right: 1px solid #ccc;
+    margin: 5px 20px 5px 5px;
+  }
+  
   #navbar_parent_div > div > .employees {
     width: 160px;
     height: 24px;

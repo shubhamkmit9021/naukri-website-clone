@@ -1,0 +1,35 @@
+#mega_menu_table_employees {
+    /* display: grid; */
+    display: none;
+    grid-template-columns: repeat(1,1fr);
+    width: 15%;
+    height: max-content;
+    margin: auto;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: whitesmoke;
+    position: fixed;
+    z-index: 1;
+    margin-left: 80%;
+}
+
+#mega_menu_table_employees > div {
+       text-align: left;
+}
+
+#table_c1 {
+    padding-left: 15px;
+}
+
+
+#mega_menu_table_employees > div > p {
+   color: #8292b4 ;
+   font-size: 18px;
+}
+
+#mega_menu_table_employees > div > p:hover {
+   color: blue;
+   cursor: pointer;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>naukri login page</title>
+    <script src="https://kit.fontawesome.com/7e0bf5df0a.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+  <div id="login_parent_div">
+
+    <div id="for_close_page"><i class="fa-solid fa-xmark"></i></div>
+
+      <div id="login_page">
+          <div id="login_heading">
+              <div>Login</div>
+              <div><a href="#">Register for free </a></div>
+          </div>
+
+          <div id="login_form">
+              <form>
+                  <label for="">Email ID / Username</label>
+                  <input id="email" type="email" placeholder="Enter your active Email ID / Username" />
+                  <label for="">Password </label>
+                  <input id="pass" type="password" placeholder="Enter your password " /> 
+                  <p class="forgot_pass"><a href="#">Forgot Password ?</a></p>
+                  <input type="submit" value="Login" />
+
+                </form>
+          </div>
+
+          <div id="otp_to_login">
+              <p>Use OTP to Login </p>
+          </div>
+
+          <div id="line_or">
+              <div></div><p>or</p><div></div>
+          </div>
+
+          <div id="google_btn_pic">
+              <button onclick="btnFun()" >
+                  <span id="google_logo">
+                    <img
+                      src="https://sso.masaischool.com/google.svg"
+                      alt="google logo"
+                    />
+                  </span>
+                  <p id="googlebtn"> Sign in with Google </p>
+                </button>
+          </div>
+    </div>
+  </div>
+</body>
+</html>
