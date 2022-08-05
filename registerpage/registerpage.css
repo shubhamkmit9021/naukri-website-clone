@@ -194,6 +194,11 @@ h3{
     font-size: medium;
 }
 
+#button:hover{
+    cursor: pointer;
+    background-color: rgb(49, 109, 165);;
+}
+
 #resume p {
     margin-right: 4px;
 }
