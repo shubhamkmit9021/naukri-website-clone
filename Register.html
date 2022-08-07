@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="https://static.naukri.com/s/4/100/i/naukriLogoIcon200.png" type="image/icon type">
+    <title>Post Job</title>
     <style>
 
        .container{
@@ -66,20 +67,60 @@ input{
        
             <form>
                 <label for="fname">Company Name:</label>
-                <input type="text" id="fname"  placeholder="Company Name" name="fname"><br><br>
+                <input type="text" id="cmpname"  placeholder="Company Name" name="fname" value=""><br><br>
+
+                <label for="fname">Position:</label>
+                <input type="text" id="position"  placeholder="Position" name="fname" value=""><br><br>
+
                 <label for="lname">Skill:</label>
-                <input type="text" id="lname"  placeholder="Skill" name="lname"><br><br>
+                <input type="text" id="skill"  placeholder="Skill" name="lname" value=""><br><br>
+
                 <label for="fname">Salary:</label>
-                <input type="text" id="fname" placeholder="Salary" name="fname"><br><br>
+                <input type="text" id="salary" placeholder="Salary" name="fname" value=""><br><br>
+
                 <label for="lname">Experience:</label>
-                <input type="text" id="lname" placeholder="Experience" name="lname"><br><br>
+                <input type="text" id="exp" placeholder="Experience" name="lname" value=""><br><br>
+
                 <label for="fname">Location:</label>
-                <input type="text" id="fname" placeholder="Location" name="fname"><br><br>
+                <input type="text" id="loc" placeholder="Location" name="fname" value=""><br><br>
+
                 <label for="lname">Description:</label>
-                <input type="text" id="lname" placeholder="Description" name="lname"><br> <br>
+                <input type="text" id="desc" placeholder="Description" name="lname" value=""><br> <br>
+
                 <button>Register</button>
               </form>
         
     </div>
 </body>
 </html>
+
+<script>
+    document.querySelector("button").addEventListener("click", fetchFata);
+
+    function fetchFata(){
+        event.preventDefault();
+        var obj = {
+             post : document.getElementById("position").value,
+            company : document.getElementById("cmpname").value,
+            exp : document.getElementById("exp").value,
+            salary : document.getElementById("salary").value,
+            loc : document.getElementById("loc").value,
+            skill : document.getElementById("skill").value,
+            details : document.getElementById("desc").value,
+        }
+
+        var regArr = JSON.parse(localStorage.getItem("registerJob")) || [];
+
+        regArr.push(obj);
+
+        localStorage.setItem("registerJob", JSON.stringify(regArr));
+
+       document.getElementById("position").value = "";
+       document.getElementById("cmpname").value = "";
+       document.getElementById("exp").value = "";
+       document.getElementById("salary").value = "";
+       document.getElementById("loc").value = "";
+       document.getElementById("skill").value = "";
+       document.getElementById("desc").value = "";
+    }
+</script>
