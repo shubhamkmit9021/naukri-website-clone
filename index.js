@@ -21,9 +21,9 @@ function regCandidate(){
 
 //  for navbar jobs hovering 
 
-document.querySelector(".jobs").addEventListener("mouseout", menuJobs);
+document.querySelector(".jobs").addEventListener("click", menuJobs);
 
-// mouseout
+// click
 // click
 
 function menuJobs() {
@@ -39,7 +39,7 @@ if(document.getElementById("mega_menu_table_jobs").style.display === "grid"){
 
 //  for navbar companies hovering 
 
-document.querySelector(".companies").addEventListener("mouseout",menuCompanies);
+document.querySelector(".companies").addEventListener("click",menuCompanies);
 
 function menuCompanies() {
 
@@ -53,7 +53,7 @@ if(document.getElementById("mega_menu_table_companies").style.display === "grid"
 
 //  for navbar services hovering 
 
-document.querySelector(".services").addEventListener("mouseout",menuServices);
+document.querySelector(".services").addEventListener("click",menuServices);
 
 function menuServices() {
 
@@ -67,7 +67,7 @@ if(document.getElementById("mega_menu_table_services").style.display === "grid")
 
 //  for navbar resources hovering 
 
-document.querySelector(".resources").addEventListener("mouseout",menuResources);
+document.querySelector(".resources").addEventListener("click",menuResources);
 
 function menuResources() {
 
@@ -81,7 +81,7 @@ if(document.getElementById("mega_menu_table_resources").style.display === "grid"
 
 //  for navbar employees hovering 
 
-document.querySelector(".employees").addEventListener("mouseout",menuEmployees);
+document.querySelector(".employees").addEventListener("click",menuEmployees);
 
 function menuEmployees() {
 
@@ -99,13 +99,24 @@ document.querySelector(".login").addEventListener("click",loginPage);
 
 function loginPage() {
 
-if(document.getElementById("login_parent_div").style.display === "block"){
-    document.getElementById("login_parent_div").style.display = "none"
-}else{
     document.getElementById("login_parent_div").style.display = "block"
 
+// if(document.getElementById("login_parent_div").style.display === "block"){
+//     document.getElementById("login_parent_div").style.display = "none"
+// }else{
+//     document.getElementById("login_parent_div").style.display = "block"
+
+// }
 }
+
+document.querySelector("#close").addEventListener("click",closeLogin);
+
+function closeLogin () {
+    document.querySelector("#close").style.color="red";
+    // document.getElementById("login_parent_div").style.color="red";
 }
+
+
 
 // for close login form
 
