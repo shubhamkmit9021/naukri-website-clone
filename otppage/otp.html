@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>otp page</title>
+    <link rel="stylesheet" href="otp.css" />
+</head>
+<body>
+    <div id="otpmain">
+        <div id="otp1">
+            <div>
+                <img id="img1" src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png" alt="naukri_Logo"/>
+                
+            </div>
+            <div>
+                <p>Welcome,.....</p>
+            </div>
+        </div>
+        <div id="otp2">
+            <div id="left1"> 
+                <img src="https://static.naukimg.com/s/7/104/assets/images/green-boy.c8b59289.svg" />
+                <div id="child01">
+                  <h2>On registering, you can</h2>
+                 <ul id="li">
+                    <li class="para"><span>&#9989;</span><span> your profile and let recruiters find you</span></li>
+                    <li class="para"><span>&#9989;</span><span>Get job postings delivered right to your email</span></li>
+                    <li class="para"><span>&#9989;</span><span>Find a job and grow your career</span></li>
+                 </ul>
+                </div>
+              </div>
+
+              <div id="right1">
+                <div id="right1child">
+                <h1>Verify mobile number</h1>
+                <p>please enter the otp sent to mobile number<span>+918127332210</span> </p>
+                </div>
+                <div id="box">
+                 
+  <div class="container">
+    <div class="row justify-content-md-center">
+        <div class="col-md-4 text-center">
+          <div class="row">
+            <div class="col-sm-12 mt-5 bgWhite">
+            
+              <form action="" class="mt-5">
+                <input class="otp" type="text" oninput='digitValidate(this)' onkeyup='tabChange(1)' maxlength=1 >
+                <input class="otp" type="text" oninput='digitValidate(this)' onkeyup='tabChange(2)' maxlength=1 >
+                <input class="otp" type="text" oninput='digitValidate(this)' onkeyup='tabChange(3)' maxlength=1 >
+                <input class="otp" type="text" oninput='digitValidate(this)'onkeyup='tabChange(4)' maxlength=1 >
+              </form>
+            
+              <p>Didn't recieve an OTP? <span id="resend">Resend</span></p>
+              <button onclick="myFunction()" class='btn btn-primary btn-block mt-4 mb-4 customBtn'>Verify</button>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>                 
+                </div>
+
+              </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
+
+<script>
+    let digitValidate = function(ele){
+  console.log(ele.value);
+  ele.value = ele.value.replace(/[^0-9]/g,'');
+}
+
+let tabChange = function(val){
+    let ele = document.querySelectorAll('input');
+    if(ele[val-1].value != ''){
+      ele[val].focus()
+    }else if(ele[val-1].value == ''){
+      ele[val-2].focus()
+    }   
+ }
+
+
+ function myFunction() {
+  alert("otp verified successfully");
+}
+
+</script>
