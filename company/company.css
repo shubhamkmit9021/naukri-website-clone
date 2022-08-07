@@ -1,0 +1,97 @@
+#parent{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px dashed rgb(57, 20, 220); */
+}
+#child1{
+    
+    width: 22%;
+    margin-left: 2%;
+    /* border: 2px dashed rgb(82, 77, 78); */
+    position: fixed;
+    
+    } 
+    
+    #filt{
+        margin-left:2%;
+        color: rgb(158, 182, 226);
+        margin-top: -10%;
+    }
+
+    /* styling for the second part of the code */
+#container{
+   
+    /* border: 2px dashed crimson; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-right: 2%;
+    width: 70%;
+    text-align: right;
+    margin-left: 27%;
+    
+    
+}
+h1{
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+h1+h4{
+    padding-left: 28%;color: rgb(84, 115, 117);
+    font-size: 20px;
+    margin-bottom: 8px;
+   
+}
+.des2{
+    background-color: rgb(240, 235, 240);
+    margin-top: -16px;
+    border-radius: 0px 0px 8px 8px;
+   
+}
+.des1{
+    background-color: rgb(240, 235, 240);
+    /* margin-top: -7px; */
+    border-radius: 8px 8px 0px 0px;
+}
+
+button{
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0px;
+    color: royalblue;
+    
+}
+h3{
+    margin-top: -3px;
+}
+
+
+
+#container>div{
+    /* border: 1px solid teal; */
+    width: 190px;
+    height: 255px;
+    margin: 11px;
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 17px 8px 17px 8px;
+    padding: 10px;
+}
+#container>div:hover{
+    background-color: rgb(245, 241, 235);
+    
+}
+
+#container>div>img{
+    text-align: center;
+    padding: auto;
+}
+
+#text{
+    text-decoration: none;
+    color: black;
+}
+
+
+
