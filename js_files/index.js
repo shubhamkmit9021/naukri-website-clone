@@ -1,4 +1,5 @@
 
+
 document.getElementById("searchBtn").addEventListener("click", searchFun);
 
 function searchFun(){
@@ -26,6 +27,13 @@ function regCandidate(){
 }
 
 
+//  for view all companies page 
+
+document.getElementById("viewAllCompanies").addEventListener("click",changeWindow);
+
+function changeWindow() {
+    window.location.href="./company/company.html";
+}
 
 
 
@@ -113,9 +121,12 @@ function loginPage() {
 
     // document.getElementById("login_parent_div").style.display = "block"
 
-if(document.getElementById("login_parent_div").style.display === "block"){
+if(document.getElementById("login_parent_div").style.display === "block")
+{
     document.getElementById("login_parent_div").style.display = "none"
-}else{
+}
+else
+{
     document.getElementById("login_parent_div").style.display = "block"
 }
 }

@@ -44,3 +44,8 @@
    color: blue;
    cursor: pointer;
 }
+
+#table_c1 a {
+    font-size: 18px;
+    color: #8292b4 ;
+}

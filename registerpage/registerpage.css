@@ -192,11 +192,17 @@ h3{
     border: none;
     color: white;
     font-size: medium;
+
 }
 
 #button:hover{
     cursor: pointer;
     background-color: rgb(49, 109, 165);;
+}
+
+#button > a {
+    text-decoration: none;
+    color: white;
 }
 
 #resume p {

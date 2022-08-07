@@ -1,0 +1,60 @@
+.container{
+    background-color:#2e3339;;
+    color: white;
+    display: flex;
+    height: 500px;
+    padding-left: 140px;
+    font-style: normal;
+   }
+   .card1{
+    height: auto;
+    width: 250px;
+    text-align: center;
+    text-align: left;
+   }
+    .card2{
+    height: auto;
+    width: 250px;
+    text-align: center;
+    text-align: left;
+    }
+    .card3{
+    height: auto;
+    width: 250px;
+    text-align: center;
+    text-align: left;
+    }
+    .card4{
+    height: auto;
+    width: 250px;
+    text-align: center;
+    text-align: left;
+    }
+
+    .grid-container{
+        margin-bottom: 5px;
+    }
+ .grid-item{
+    color: grey;
+    position: static;
+    font-family: Helvetica, sans-serif;
+    font-size: smaller;
+   
+ }
+ .grid-item:hover{
+   cursor: pointer;
+ }
+   
+ .grid-item .text{
+    visibility: hidden;
+    width: 120px;
+    background-color:white;
+    color: black;
+    position: absolute;
+    z-index: 1;
+
+ }
+
+ .grid-item:hover .text{
+    visibility: visible;
+ }
