@@ -7,7 +7,7 @@ body {
     display: grid;
     grid-template-columns: 55% 45%;
     height: 72px;
-    background-color: whitesmoke;
+    background-color: #f9fafe;
     text-align: center;
     position: sticky;
     top: 0px;
