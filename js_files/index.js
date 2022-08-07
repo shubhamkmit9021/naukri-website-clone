@@ -1,10 +1,22 @@
+
 document.getElementById("searchBtn").addEventListener("click", searchFun);
 
 function searchFun(){
     var skill = document.getElementById("skills").value;
     var experience = document.getElementById("experience").value;
     var location = document.getElementById("location").value;
-    window.location.replace("#");
+
+    // var filteredArr = objArr.filter(function(elem){
+    //     return (skill == elem.skill || experience == elem.exp || location == elem.loc);
+    // })
+
+    // localStorage.setItem("searchListArr", JSON.stringify(filteredArr));
+
+    localStorage.setItem("skill", skill);
+    localStorage.setItem("exp", experience);
+    localStorage.setItem("loc", location);
+
+    window.location.href = "searchlist.html";
 }
 
 document.getElementById("regBtn").addEventListener("click", regCandidate);
@@ -99,22 +111,20 @@ document.querySelector(".login").addEventListener("click",loginPage);
 
 function loginPage() {
 
+    // document.getElementById("login_parent_div").style.display = "block"
+
+if(document.getElementById("login_parent_div").style.display === "block"){
+    document.getElementById("login_parent_div").style.display = "none"
+}else{
     document.getElementById("login_parent_div").style.display = "block"
+}
+}
 
-// if(document.getElementById("login_parent_div").style.display === "block"){
-//     document.getElementById("login_parent_div").style.display = "none"
-// }else{
-//     document.getElementById("login_parent_div").style.display = "block"
+// document.querySelector("#for_close_page").addEventListener("click",closeLogin);
 
+// function closeLogin () {
+//     document.getElementById("login_parent_div").style.display = "none";
 // }
-}
-
-document.querySelector("#close").addEventListener("click",closeLogin);
-
-function closeLogin () {
-    document.querySelector("#close").style.color="red";
-    // document.getElementById("login_parent_div").style.color="red";
-}
 
 
 
