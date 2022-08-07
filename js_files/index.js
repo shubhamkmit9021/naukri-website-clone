@@ -131,6 +131,51 @@ else
 }
 }
 
+
+// Login JS-----------------------------
+// Code for sign in page 
+
+document.querySelector("form").addEventListener("submit", signChk);
+var regArr = JSON.parse(localStorage.getItem("registerationDetails")) || [];
+
+function signChk(){
+    event.preventDefault();
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("pass").value;
+    var flag = false;
+
+    regArr.map(function(elem){
+        if(elem.email == email && elem.password == password){
+            flag = true;
+            return;
+        }
+    })
+
+    if(flag){
+        alert("Login Successful !");
+
+        var h4 = document.createElement("h4");
+        h4.innerText = "Welcome";
+
+        // document.getElementById("").innerHTML = h4;
+
+        // window.location.href = "";
+
+        document.querySelector(".login").innerHTML = "Welcome to";
+        document.querySelector(".register").innerHTML = "Naukri.com";
+
+    }else{
+        alert("Please enter valid email and password !")
+    }
+}
+
+
+
+
+
+
+
+
 // document.querySelector("#for_close_page").addEventListener("click",closeLogin);
 
 // function closeLogin () {

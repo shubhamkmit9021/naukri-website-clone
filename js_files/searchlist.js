@@ -4,71 +4,73 @@ var objArr = [
         post : "Fullstack Developer",
         company : "ZOLOSTAYS",
         exp : "1 year",
-        salary : "₹ 5,00,000 - 10,00,000 P.A.",
+        salary : " 5,00,000 - 10,00,000 P.A.",
         loc : "Banglore",
         skill : "Java",
         details : "Vacancy Full stack Developer Candidates serving more than 1 month notice period can apply",
-        linkofpage : "https://www.naukri.com"
+        linkofpage : "./job_Description/zolostays.html"
     },
     {
         post : "Backend Developer",
         company : "Amazon",
         exp : "3 years",
-        salary : "₹ 8,00,000 - 15,00,000 P.A.",
+        salary : " 8,00,000 - 15,00,000 P.A.",
         loc : "Mumbai",
         skill : "Java . SQL . Automation",
         details : "Vacancy Backend Developer Candidates serving more than 1 week notice period can apply",
-        linkofpage : "https://www.naukri.com/browse-jobs"
+        linkofpage : "./job_Description/amazon.html"
     },
     {
         post : "Frontend Developer",
         company : "TCS",
         exp : "Fresher",
-        salary : "₹ 3,00,000 - 5,00,000 P.A.",
+        salary : " 3,00,000 - 5,00,000 P.A.",
         loc : "Pune",
         skill : "Automation",
         details : "Vacancy Frontend Developer Candidates serving more than 1 week notice period can apply",
-        linkofpage : "https://www.naukri.com"
+        linkofpage : "./job_Description/tcs.html"
     },
 
     {
         post : "Associate Software Engineer",
         company : "Precisely",
         exp : "4 years",
-        salary : "₹ Not disclosed",
+        salary : " Not disclosed",
         loc : "Noida",
         skill : "Front end . Linux . Javascript",
         details : "Bachelor s degree in Computer Science or related field, or equivalent experience.",
-        linkofpage : "https://www.naukri.com"
-    },
-
-    {
-        post : "Lead Full-Stack Developer",
-        company : "BNY Mellon",
-        exp : "6 years",
-        salary : "₹ Not disclosed",
-        loc : "Pune",
-        skill : "Computer science . Manager Quality Assurance . Front end . Coding",
-        details : "Bachelors degree in computer science engineering or a related discipline, or equivalent",
-        linkofpage : "https://www.naukri.com"
+        linkofpage : "./job_Description/precisely.html"
     },
 
     {
         post : "Functional Test Planning Quality Engineer (Tester)",
         company : "Accenture",
         exp : "2 years",
-        salary : "₹ 3,00,000 - 5,00,000 P.A.",
+        salary : " 3,00,000 - 5,00,000 P.A.",
         loc : "Pune",
         skill : "Automation . Consulting . Test execution . Agile methodology",
         details : "Additional Information : Resource need to work in ME shift viz 11 am to 8 pm Technical",
+        linkofpage : "./job_Description/accenture.html"
+    },
+
+    {
+        post : "Lead Full-Stack Developer",
+        company : "BNY Mellon",
+        exp : "6 years",
+        salary : " Not disclosed",
+        loc : "Pune",
+        skill : "Computer science . Manager Quality Assurance . Front end . Coding",
+        details : "Bachelors degree in computer science engineering or a related discipline, or equivalent",
         linkofpage : "https://www.naukri.com"
     },
+
+   
 
     {
         post : "Catia Product Design Engineer",
         company : "Peoplefy Infosolutions Pvt. Ltd.",
         exp : "Fresher",
-        salary : "₹ Not disclosed",
+        salary : " Not disclosed",
         loc : "Delhi",
         skill : "presentation . PFMEA . Communication . DFMEA . GD&T . CATIA",
         details : "Taking up ownership and accountability to drive the project with minimum supervision",
@@ -79,7 +81,7 @@ var objArr = [
         post : "Software Quality Assurance Engineer",
         company : "Nuance India",
         exp : "Fresher",
-        salary : "₹ 3,00,000 - 5,00,000 P.A.",
+        salary : " 3,00,000 - 5,00,000 P.A.",
         loc : "Pune",
         skill : "Cloud Native testing . REST API . Core Java . Git . Containerization",
         details : "This individual will join the Digital product QA team in Enterprise R&D. This team owns",
@@ -94,12 +96,15 @@ var objArr = JSON.parse(localStorage.getItem("masterJobList")) || [];
 
 // Registered jobs by employer comes here
 
-// var jobsPosted = JSON.parse(localStorage.getItem("registerJob")) || [];
+var jobsPosted = JSON.parse(localStorage.getItem("registerJob")) || [];
 
-// jobsPosted.map(function(elem){
-//     objArr.unshift(elem);
-// })
 
+    jobsPosted.map(function(elem){
+        objArr.unshift(elem);
+    })
+
+var chk = [];
+localStorage.setItem("registerJob", JSON.stringify(chk));
 // Registered jobs by employer comes here
 
 var skill = localStorage.getItem("skill");
@@ -148,7 +153,7 @@ var filtObj = objArr.filter(function(elem){
         p1.innerHTML = '<i class="fa-solid fa-briefcase"></i> ' + ele.exp;
 
         var p2 = document.createElement("p");
-        p2.innerText = ele.salary;
+        p2.innerText ="₹" + ele.salary;
 
         var p3 = document.createElement("p");
         p3.innerHTML = '<i class="fa-solid fa-location-dot"></i> ' + ele.loc;

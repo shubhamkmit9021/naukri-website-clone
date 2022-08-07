@@ -140,6 +140,9 @@ body {
     padding: 10px 20px;
     justify-content: center;
     margin-top: 0px;
+    text-align: center;
+    padding-right: 55px;    
+    /* for centering Login Button */
   }
 
   #navbar_2nd_child > .register p {

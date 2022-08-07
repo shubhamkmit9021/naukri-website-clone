@@ -3,6 +3,10 @@ body{
     background-color: #fbfcff;
 }
 
+#emp a{
+    text-decoration: none;
+}
+
 #navbarJobList{
     display: flex;
     justify-content: space-between;
