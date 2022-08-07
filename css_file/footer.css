@@ -1,0 +1,94 @@
+
+.container{
+    height: max-content;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+.card1{
+    height: max-content;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.card2{
+    height: max-content;
+    margin: auto; 
+}
+
+.card3{
+    width: 400px;
+    justify-content: center;
+    border: 1px solid grey;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 20px;
+    margin-right: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+
+.png{
+  display: grid;
+  grid-template-columns: 210px 50px ;
+  }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  cursor: pointer;
+  height: 30px;
+  width: 160px;
+  padding: 5px;
+  color: grey;
+  text-align: left;
+  justify-content: space-between;
+}
+
+#ps {
+text-align: left;
+margin-left: 20px;
+}
+
+.logo{
+margin-left: 80px;
+}
+
+.connect{
+margin-top: 30px;
+text-align: center;
+}
+
+#ps > p {
+    font-size: 18px;
+    margin-top: -10px;
+  }
+
+.icon{
+display: grid;
+grid-template-columns: 40px 40px 40px 40px;
+height: 70px;
+width:200px ;
+margin-left: 70px;
+margin-top: -20px;
+}
+
+.ic{
+text-align: center;
+height: 5px;
+width: 5px;
+padding:15px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.dn{
+margin: 50px;
+border: 1px solid #ccc;
+}

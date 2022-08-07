@@ -1,0 +1,107 @@
+#otp1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 2px 40px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#img1{
+    padding: 10px;
+}
+#otp2{
+    background-color: rgb(246, 250, 249);
+    display: flex;
+    justify-content: space-between;
+}
+
+#left1{
+    width: 30%;
+    /* border: 2px solid crimson; */
+    text-align: center;
+    padding-top: 100px;
+    position: fixed;
+    
+    }
+    #child01{
+        border: 1px dashed rgb(192, 177, 177);
+        border-radius: 20px;
+        margin-top: -60px;
+        margin-left: 65px;
+        margin-right: 35px;
+        background-color:white;
+    }
+
+    h2{
+        padding-top: 40px;
+    }
+    #right1child{
+        
+            padding-left: 10%;
+            padding-top: 6%;
+        
+    }
+h1+p{
+    font-size:large;
+}
+    #li{
+        text-align: left;
+    }
+    
+    .para{
+        list-style-type: none;
+        margin: 3px 0px 3px -3px;
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+        /* align-items: center; */
+    }
+    .para span {
+        margin: 0px 2px;
+    }
+
+#right1{
+    
+    width: 70%;
+/* border: 2px solid blue; */
+margin-top: 30px;
+margin-right: 70px;
+background-color: white;
+border-radius: 20px;
+height: 600px;
+margin-left: 30%;
+padding-bottom: 35px;
+margin-bottom: 30px;
+}
+span{
+    color: gray;
+    padding-left: 5px;
+}
+
+#box{
+    margin-left:  10%;
+}
+  
+  .bgWhite{
+    background:white;
+    /* box-shadow:0px 3px 6px 0px #cacaca; */
+  }
+  
+  .customBtn{
+    border-radius:10px;
+    padding:10px;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  form input{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    text-align:center;
+  }
+
+  #resend{
+    color: dodgerblue;
+  }

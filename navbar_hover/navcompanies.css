@@ -1,0 +1,46 @@
+
+#mega_menu_table_companies {
+    /* display: grid; */
+    display: none;
+    grid-template-columns: repeat(3,1fr);
+    width: 55%;
+    height: max-content;
+    margin: auto;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: whitesmoke;
+    position: fixed;
+    z-index: 1;
+    margin-left: 20%;
+}
+
+#mega_menu_table_companies > div {
+       text-align: left;
+}
+
+#table_c1 {
+    padding-left: 25px;
+}
+
+#table_c2, #table_c3 {
+    border-left: 1px solid #bdbfc2;
+    padding-left: 25px;
+
+}
+#mega_menu_table_companies > div > h3 {
+   font-size: 22px;
+   font-weight: 900;
+   margin-top: 0px;
+}
+
+#mega_menu_table_companies > div > p {
+   color: #8292b4 ;
+   font-size: 18px;
+}
+
+#mega_menu_table_companies > div > p:hover {
+   color: blue;
+   cursor: pointer;
+}

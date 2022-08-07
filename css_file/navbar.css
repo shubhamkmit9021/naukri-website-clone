@@ -1,0 +1,156 @@
+
+body {
+    margin: 0px;
+  }
+
+  #navbar_parent_div {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    height: 72px;
+    background-color: whitesmoke;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    /* padding: 5px; */
+    z-index: 1;
+  }
+
+  #navbar_parent_div > div {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-evenly;
+  }
+
+  #navbar_parent_div > #navbar_2nd_child {
+    justify-content: flex-end;
+    margin-right: 80px;
+  }
+
+  #navbar_parent_div > div p {
+    margin: 5px auto;
+    color: #8292b4;
+    font-size: 20px;
+  }
+
+  #navbar_parent_div > div a {
+    text-decoration: none;
+    /* text-decoration-line: none; */
+  }
+  #navbar_parent_div > div p:hover {
+    color: black;
+    cursor: pointer;
+    font-weight: 800;
+    border-bottom: 5px solid #ff7555;
+  }
+
+  #navbar_parent_div > div > .img_logo :hover {
+    border-bottom: none;
+  }
+
+  /* for image */
+
+  #navbar_parent_div > div > .img_logo {
+    width: 300px;
+    height: 36px;
+  }
+
+  #navbar_parent_div > div > .img_logo img {
+    width: 186px;
+    height: 31px;
+  }
+
+  /* for jobs tab */
+
+  #navbar_parent_div > div > .jobs {
+    width: 67px;
+    height: 20;
+  }
+
+  #navbar_parent_div > div > .jobs > a {
+    width: 267px;
+    height: 20;
+  }
+
+  #navbar_parent_div > div > .companies {
+    width: 114px;
+    height: 20px;
+  }
+
+  #navbar_parent_div > div > .services {
+    width: 96px;
+    height: 20px;
+  }
+
+  #navbar_parent_div > div > .resources {
+    width: 108px;
+    height: 20px;
+  }
+
+  #navbar_parent_div > div > .login {
+    width: 74px;
+    height: 36px;
+  }
+
+  #navbar_parent_div > div > .register {
+    width: 95px;
+    height: 36px;
+  }
+
+  #for_only_border {
+    border-right: 1px solid #ccc;
+    margin: 5px 20px 5px 5px;
+  }
+  
+  #navbar_parent_div > div > .employees {
+    width: 160px;
+    height: 24px;
+  }
+
+  /* for button */
+
+  #navbar_2nd_child > .login {
+    margin-right: 20px;
+  }
+
+  #navbar_2nd_child > .register {
+    margin-right: 20px;
+  }
+
+  #navbar_2nd_child > .login :hover {
+    border-bottom: none;
+    color: #458aff;
+    font-weight: 400;
+  }
+
+  #navbar_2nd_child > .register :hover {
+    border-bottom: none;
+    color: white;
+    font-weight: 400;
+  }
+
+  #navbar_2nd_child > .login p {
+    border: 1px solid #458aff;
+    border-radius: 25px;
+    overflow: hidden;
+    font-size: 16px;
+    background-color: white;
+    color: #458aff;
+    cursor: pointer;
+    padding: 10px 20px;
+    justify-content: center;
+    margin-top: 0px;
+  }
+
+  #navbar_2nd_child > .register p {
+    border: none;
+    border-radius: 25px;
+    overflow: hidden;
+    font-size: 16px;
+    background-color: #ff7555;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    justify-content: center;
+    margin-top: 0px;
+  }

@@ -1,0 +1,153 @@
+#login_parent_div {
+  display: none;
+    width: 420px;
+    height: 99vh;
+    /* position: absolute; */
+    right: 20px;
+    position: fixed;
+    z-index: 5;
+    /* top: 0; */
+    /* border: 1px solid #ccc; */
+        background-color: whitesmoke;
+}
+
+    #for_close_page {
+        position: absolute;
+        top: 20px;
+        right: 15px;
+        color: black;
+        font-size: 25px;
+    }
+
+    a {
+        font-size: 22px;
+        color: blue;
+        text-decoration: none;
+    }
+
+    #login_page {
+        width: 400px;
+        height: 96vh;
+        position: absolute;
+        right: 45px;
+        left: 15px;
+        /* border: 1px solid #ccc; */
+        /* background-color: whitesmoke; */
+    }
+
+    #login_page > #login_heading {
+        display: flex;
+        justify-content: space-around;
+        font-size: 26px;
+        margin-top: 20px;
+    }
+
+    #login_page > #login_form {
+        margin-top: 40px;
+    }
+
+    #login_form > form {
+        display: grid;
+        grid-template-columns: 85%;
+        justify-content: center;
+    }
+
+    #login_form > form > label {
+        font-size: 16px;
+        margin-bottom: 10px;
+  }
+
+  #login_form > form > input[type="email"],
+  input[type="password"] {
+    margin-bottom: 30px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  #login_form > form > input[type="submit"] {
+    margin: 10px 0px;
+    padding: 10px 0px;
+    margin-top: -15px;
+    font-size: 18px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: none;
+    background-color: #2563eb;
+    color: white;
+  }
+
+  #login_form > form > input[type="submit"]:hover {
+    background-color: rgb(226, 142, 142);
+    cursor: pointer;
+  }
+
+ .forgot_pass > a {
+    position: absolute;
+    font-size: 14px;
+    right: 35px;
+    margin-top: -40px;
+    color: rgb(138, 134, 134);
+  }
+
+  #otp_to_login > p  {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    color: #2563eb;
+    margin-bottom: 35px;
+  }  
+
+  #line_or {
+    display: grid;
+    grid-template-columns: 35% 10% 35%;
+    margin: auto;
+    justify-content: center;
+  }
+
+  #line_or > div {
+    border-top: 1px solid #ccc;
+    margin-bottom: 30px;
+    color: #ccc;
+  }
+
+  #line_or > p {
+        margin: -12px 0px;
+        font-size: 20px;
+        text-align: center;
+        color: rgb(97, 89, 89);
+  }
+    #google_btn_pic {
+        display: grid;
+        grid-template-columns: 85%;
+        justify-content: center;
+  }
+
+  #google_btn_pic > button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 10px 0px;
+    margin: 8px 0px;
+    
+  }
+
+  #google_btn_pic > button:hover {
+    cursor: pointer;
+    background-color: antiquewhite;
+  }
+
+  #google_logo {
+    margin: auto 10px;
+}
+
+#googlebtn {
+    font-size: 18px;
+    margin: auto 10px;
+}
