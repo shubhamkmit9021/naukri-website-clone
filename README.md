@@ -1,8 +1,7 @@
 # naukri-website-clone 
-// updated
 
-Website Deployed Link:- https://ornate-lollipop-ac21f9.netlify.app
+## [Deployed Link](https://naukri-clone-page.netlify.app/)
 
-Blog Posted Link:- https://gaurav1.hashnode.dev/naukri-clone
+### [Blog2](https://gaurav1.hashnode.dev/naukri-clone)    
 
-
+- In this we created a pixel perfect clone of the famous job search website Naukri.com with basic core functionalities and good looking user interface.
